@@ -157,18 +157,18 @@
          because a file signature is always detached — there is nothing to clear-sign. -->
     <string name="d_crypto_tab_files">파일</string>
     <string name="d_crypto_tab_message">메시지</string>
-    <string name="d_crypto_fileop_sign">Sign (detached)</string>
-    <string name="d_crypto_fileop_verify">Verify (detached)</string>
+    <string name="d_crypto_fileop_sign">서명 (detached)</string>
+    <string name="d_crypto_fileop_verify">검증 (detached)</string>
     <string name="d_crypto_err_generic">작업 실패</string>
 
     <!-- ── Files pane ──────────────────────────────────────────────────── -->
     <string name="d_crypto_add_files">파일 추가하기…</string>
     <string name="d_crypto_drop_hint">…or drop files anywhere on the window</string>
-    <string name="d_crypto_no_files">No files selected.</string>
+    <string name="d_crypto_no_files">선택된 파일이 없습니다.</string>
     <string name="d_crypto_no_files_title">No files queued</string>
     <string name="d_crypto_result_ok">OK</string>
     <string name="d_crypto_result_failed">실패함</string>
-    <string name="d_crypto_signer_pass_label">Signer passphrase (blank if unprotected)</string>
+    <string name="d_crypto_signer_pass_label">서명자 비밀구절 (보호되지 않은 경우 공란)</string>
     <string name="d_crypto_armor_gpg">ASCII armor (.asc instead of binary .gpg)</string>
     <string name="d_crypto_armor_sig">ASCII armor (.asc instead of binary .sig)</string>
     <string name="d_crypto_decrypt_pass_label">Key or message passphrase</string>
@@ -176,28 +176,28 @@
     <string name="d_crypto_sign_as_colon">다음으로 서명:</string>
     <string name="d_crypto_verify_files_hint">Select a .sig/.asc signature whose content file sits next to it (same name without the extension), or exactly two files — the signature and the content.</string>
     <string name="d_crypto_err_no_pairing">No signature/content pairing found — see the hint above</string>
-    <string name="d_crypto_err_no_signer">No key pair to sign with</string>
-    <string name="d_crypto_files_done">%1$d/%2$d file(s) processed</string>
-    <string name="d_crypto_files_partial">%1$d/%2$d succeeded — see per-file results</string>
+    <string name="d_crypto_err_no_signer">서명할 키쌍이 없습니다</string>
+    <string name="d_crypto_files_done">%1$d/%2$d 파일 처리됨</string>
+    <string name="d_crypto_files_partial">%1$d/%2$d 성공 — see per-file results</string>
     <string name="d_crypto_run_op">%1$s 실행</string>
     <string name="d_crypto_input_verify">Clear-signed message or armored signature</string>
 
     <!-- ── Encrypt tab ─────────────────────────────────────────────────── -->
     <string name="d_crypto_encrypt_with">다음으로 암호화:</string>
-    <string name="d_crypto_with_public_keys">Public keys</string>
-    <string name="d_crypto_attach_files">Attach files…</string>
-    <string name="d_crypto_clear_attachments">Clear attachments</string>
+    <string name="d_crypto_with_public_keys">공개 키</string>
+    <string name="d_crypto_attach_files">파일 첨부…</string>
+    <string name="d_crypto_clear_attachments">첨부 비우기</string>
     <string name="d_crypto_bundle_note">Sent as a PGP/MIME bundle — body + %1$d attachment(s) inside one encrypted multipart/mixed.</string>
     <string name="d_crypto_err_card_or_recipient_load">A recipient or the card key failed to load</string>
-    <string name="d_crypto_card_sign_encrypt_title">Sign &amp; encrypt on %1$s</string>
+    <string name="d_crypto_card_sign_encrypt_title">%1$s에 서명 및 암호화</string>
     <string name="d_crypto_hardware_key">하드웨어 키</string>
     <string name="d_crypto_err_pubkey_missing">Couldn’t load the public key for \"%1$s\" — its stored key material is missing. Remove that entry from the Keyring and re-import the public key.</string>
     <string name="d_crypto_err_signer_load">Signing key %1$s could not be loaded — nothing was encrypted. (Uncheck Sign as to send unsigned.)</string>
     <string name="d_crypto_banner_encrypted">Encrypted to %1$d recipient(s)</string>
     <string name="d_crypto_banner_encrypted_card">Encrypted to %1$d recipient(s), signed on card as %2$s</string>
     <string name="d_crypto_banner_encrypted_pass">Encrypted with passphrase</string>
-    <string name="d_crypto_banner_signed_as">, signed as %1$s (%2$s)</string>
-    <string name="d_crypto_banner_unsigned">, UNSIGNED</string>
+    <string name="d_crypto_banner_signed_as">, %1$s(%2$s)으로 서명됨</string>
+    <string name="d_crypto_banner_unsigned">, 서명되지 않음</string>
 
     <!-- ── Banners: stems and fragments ────────────────────────────────── -->
     <!-- The banner sentences are assembled from a stem plus optional suffix fragments,
@@ -206,27 +206,27 @@
          FRAGMENTS, not sentences: each one carries its own leading separator so a
          translator can move the punctuation, and each is appended to a stem above.
          Translate them as continuations, never as standalone lines. -->
-    <string name="d_crypto_banner_bundle_suffix"> · bundle with %1$d attachment(s)</string>
-    <string name="d_crypto_banner_attach_suffix"> · %1$d attachment(s)</string>
+    <string name="d_crypto_banner_bundle_suffix"> · bundle with %1$d 첨부</string>
+    <string name="d_crypto_banner_attach_suffix"> · %1$d 첨부</string>
     <string name="d_crypto_banner_signer_suffix"> — %1$s</string>
-    <string name="d_crypto_banner_keyid_suffix"> (key ID %1$s)</string>
+    <string name="d_crypto_banner_keyid_suffix"> (키 ID %1$s)</string>
 
     <!-- ── Decrypt tab ─────────────────────────────────────────────────── -->
     <string name="d_crypto_decrypt_note">Accepts an armored message or a full PGP/MIME .eml — bundles show their attachments beside the output.</string>
-    <string name="d_crypto_card_decrypt_title">Decrypt on %1$s</string>
-    <string name="d_crypto_banner_decrypted_card_verified">Decrypted on card · signature VERIFIED</string>
-    <string name="d_crypto_banner_decrypted_card_unknown">Decrypted on card · signer not in your keyring</string>
-    <string name="d_crypto_banner_decrypted_card_unsigned">Decrypted on card · no signature</string>
-    <string name="d_crypto_banner_decrypted_verified">Decrypted · signature VERIFIED</string>
-    <string name="d_crypto_banner_decrypted_unknown">Decrypted · signed by a key not in your keyring</string>
-    <string name="d_crypto_banner_decrypted_unsigned">Decrypted · no signature</string>
+    <string name="d_crypto_card_decrypt_title">%1$s에서 복호화</string>
+    <string name="d_crypto_banner_decrypted_card_verified">카드에서 복호화됨 · 서명 검증됨</string>
+    <string name="d_crypto_banner_decrypted_card_unknown">카드에서 복호화됨 · signer not in your keyring</string>
+    <string name="d_crypto_banner_decrypted_card_unsigned">카드에서 복호화됨 · 서명 없음</string>
+    <string name="d_crypto_banner_decrypted_verified">복호화됨 · 서명 검증됨</string>
+    <string name="d_crypto_banner_decrypted_unknown">복호화됨 · signed by a key not in your keyring</string>
+    <string name="d_crypto_banner_decrypted_unsigned">복호화됨 · 서명 없음</string>
 
     <!-- ── Sign tab ────────────────────────────────────────────────────── -->
     <string name="d_crypto_detached_toggle">Detached signature (signature only, text stays separate)</string>
     <string name="d_crypto_clear_signed">Clear-signed</string>
     <string name="d_crypto_err_card_pubkey">Card public key could not be loaded</string>
-    <string name="d_crypto_card_sign_title">Sign on %1$s</string>
-    <string name="d_crypto_banner_signed_card">%1$s on card · %2$s</string>
+    <string name="d_crypto_card_sign_title">%1$s에서 서명</string>
+    <string name="d_crypto_banner_signed_card">카드에서 %1$s · %2$s</string>
     <string name="d_crypto_banner_signed">%1$s · %2$s</string>
     <string name="d_crypto_err_signer_ring">Signer secret ring failed to load</string>
 
@@ -236,21 +236,21 @@
     <string name="d_crypto_err_detached_needs_text">Detached signature — paste the original text in the second field</string>
     <string name="d_crypto_err_is_encrypted">This is an encrypted message — use the Decrypt tab</string>
     <string name="d_crypto_err_no_framing">No recognizable PGP signature framing found</string>
-    <string name="d_crypto_banner_verified">Signature VERIFIED — %1$s &lt;%2$s&gt; · %3$s</string>
-    <string name="d_crypto_banner_invalid">Signature INVALID — the content does not match the signature</string>
+    <string name="d_crypto_banner_verified">서명 검증됨 — %1$s &lt;%2$s&gt; · %3$s</string>
+    <string name="d_crypto_banner_invalid">서명이 올바르지 않음 — the content does not match the signature</string>
     <string name="d_crypto_banner_unknown_signer">Signed by a key not in your keyring — import the signer\'s public key to verify</string>
     <string name="d_crypto_banner_no_signature">No signature found in the input</string>
 
     <!-- ── Output pane ─────────────────────────────────────────────────── -->
     <string name="d_crypto_output">출력</string>
-    <string name="d_crypto_attachment_meta">%1$s · %2$d bytes</string>
+    <string name="d_crypto_attachment_meta">%1$s · %2$d 바이트</string>
     <string name="d_common_save_as">저장하기…</string>
-    <string name="d_crypto_copy_output">Copy output</string>
-    <string name="d_crypto_save_eml">Save .eml…</string>
+    <string name="d_crypto_copy_output">출력 복사</string>
+    <string name="d_crypto_save_eml">.eml 저장…</string>
     <string name="d_status_saved">Saved %1$s</string>
-    <string name="d_status_saved_bytes">Saved %1$s (%2$d bytes)</string>
-    <string name="d_crypto_cancelled">Cancelled</string>
-    <string name="d_crypto_no_signer_available">No key pair available</string>
+    <string name="d_status_saved_bytes">Saved %1$s (%2$d 바이트)</string>
+    <string name="d_crypto_cancelled">취소됨</string>
+    <string name="d_crypto_no_signer_available">사용 가능한 키쌍 없음</string>
 
     <!-- ── Hardware-key batch prompts ──────────────────────────────────── -->
     <!-- %1$d file count, %2$s the key's user ID (or d_crypto_hardware_key when it is blank). -->
@@ -271,14 +271,14 @@
     <!-- ── Store bar ───────────────────────────────────────────────────── -->
     <string name="d_pass_store_unreadable">Can\'t read %1$s — moved, unmounted, or no longer readable.</string>
     <string name="d_pass_not_a_store">Not a readable password store: %1$s</string>
-    <string name="d_pass_store_added">Password store added — %1$s</string>
-    <string name="d_pass_choose_store">Choose store</string>
-    <string name="d_pass_add_store">Add store…</string>
+    <string name="d_pass_store_added">비밀번호 저장소 추가됨 — %1$s</string>
+    <string name="d_pass_choose_store">저장소 선택</string>
+    <string name="d_pass_add_store">저장소를 추가하세요…</string>
     <string name="d_pass_store_title">비밀번호 저장소</string>
     <string name="d_pass_use_default">Use ~/.password-store</string>
     <string name="d_pass_rescan">재스캔</string>
-    <string name="d_pass_empty_title">No password store yet</string>
-    <string name="d_pass_select_entry_title">Nothing selected</string>
+    <string name="d_pass_empty_title">비밀번호 저장소가 없습니다</string>
+    <string name="d_pass_select_entry_title">선택된 것이 없습니다</string>
     <string name="d_pass_store_removed">Removed %1$s from PGPony (the folder is untouched)</string>
     <string name="d_pass_choose_folder">Choose password store folder</string>
 
@@ -303,17 +303,17 @@
     <string name="d_pass_card_key_missing">The paired card key for this entry isn\'t in your keyring.</string>
     <string name="d_pass_card_decrypt_title">Decrypt %1$s on %2$s</string>
     <string name="d_pass_card_failed">Hardware-key decryption failed: %1$s</string>
-    <string name="d_pass_encrypted_to">Encrypted to: %1$s</string>
+    <string name="d_pass_encrypted_to">다음에게 암호화됨: %1$s</string>
     <string name="d_common_reveal">보이기</string>
     <string name="d_common_hide">숨기기</string>
-    <string name="d_pass_password_copied">Password copied</string>
-    <string name="d_pass_password_copied_clearing">Password copied — clipboard clears in %1$ds</string>
-    <string name="d_pass_copy_password">Copy password</string>
+    <string name="d_pass_password_copied">비밀번호 복사됨</string>
+    <string name="d_pass_password_copied_clearing">비밀번호 복사됨 — clipboard clears in %1$ds</string>
+    <string name="d_pass_copy_password">비밀번호 복사</string>
     <string name="d_pass_clipboard_countdown">Clipboard clears in %1$ds</string>
-    <string name="d_pass_fields">Fields</string>
-    <string name="d_pass_field_copied">%1$s copied</string>
-    <string name="d_pass_copy_field">Copy %1$s</string>
-    <string name="d_pass_lock">Lock</string>
+    <string name="d_pass_fields">필드</string>
+    <string name="d_pass_field_copied">%1$s 복사됨</string>
+    <string name="d_pass_copy_field">%1$s 복사</string>
+    <string name="d_pass_lock">잠금</string>
     <string name="d_pass_relock_note">Locks itself after %1$ds.</string>
 
     <!-- ── One-time codes ──────────────────────────────────────────────── -->
@@ -322,29 +322,29 @@
     <string name="d_pass_otp_unparsable">PGPony can\'t generate codes from this URI — it isn\'t a TOTP URI, or its secret isn\'t valid base32. Use your authenticator app for this entry.</string>
     <string name="d_pass_otp_uri_copied">otpauth URI copied</string>
     <string name="d_pass_otp_display_only">PGPony displays this setup URI but does not generate codes on this device. Copy it into an authenticator app.</string>
-    <string name="d_pass_copy_uri">Copy URI</string>
+    <string name="d_pass_copy_uri">URI 복사</string>
     <string name="d_pass_otp_no_provider">This JVM has no HMAC-%1$s provider, so the code can\'t be generated here.</string>
-    <string name="d_pass_code_copied">Code copied</string>
-    <string name="d_pass_code_copied_clearing">Code copied — clipboard clears in %1$ds</string>
+    <string name="d_pass_code_copied">코드 복사됨</string>
+    <string name="d_pass_code_copied_clearing">코드 복사됨 — clipboard clears in %1$ds</string>
     <string name="d_pass_copy_code">Copy one-time code</string>
     <string name="d_pass_otp_rolls_in">rolls in %1$ds</string>
     <string name="d_pass_otp_meta">%1$s — %2$s, %3$d digits, %4$ds</string>
-    <string name="d_pass_show_uri">Show setup URI</string>
-    <string name="d_pass_hide_uri">Hide setup URI</string>
-    <string name="d_pass_copy_setup_uri">Copy setup URI</string>
+    <string name="d_pass_show_uri">설정 URI 보이기</string>
+    <string name="d_pass_hide_uri">설정 URI 숨기기</string>
+    <string name="d_pass_copy_setup_uri">설정 URI 복사</string>
 
 
     <!-- ═══ Hardware Keys screen (D11b) ═══════════════════════════════ -->
     <string name="d_cards_subtitle">OpenPGP smart cards over USB — YubiKey 5, Token2, Nitrokey 3 and friends. Secrets live on the key and never touch this computer.</string>
 
     <!-- ── Reader row (USB PC/SC — the phone taps NFC instead) ─────────── -->
-    <string name="d_cards_reader_label">Reader:</string>
-    <string name="d_cards_no_reader">No reader found</string>
+    <string name="d_cards_reader_label">리더:</string>
+    <string name="d_cards_no_reader">리더를 찾을 수 없음</string>
     <string name="d_cards_reader_with_card">%1$s · card present</string>
-    <string name="d_cards_read_card">Read card</string>
+    <string name="d_cards_read_card">카드 읽기</string>
     <string name="d_cards_no_reader_detected">No PC/SC reader detected. Plug in the key (it enumerates as its own reader).</string>
     <string name="d_cards_no_reader_linux">On Linux, install and start pcscd.</string>
-    <string name="d_cards_section_reader">Reader</string>
+    <string name="d_cards_section_reader">리더</string>
     <string name="d_cards_no_reader_title">No reader detected</string>
     <string name="d_cards_no_card_title">No card read yet</string>
     <string name="d_cards_no_card_body">Insert the hardware key and choose Read card. PGPony reads the card\'s public slots only — nothing is written to it.</string>
@@ -361,13 +361,13 @@
     <string name="d_cards_keygen_done">Generated on card and paired — %1$s. Export and BACK UP the public key; the secret keys cannot leave the card.</string>
 
     <!-- ── Management buttons (ellipsis = opens a dialog) ──────────────── -->
-    <string name="d_cards_change_pin_open">Change PIN…</string>
-    <string name="d_cards_change_admin_open">Change Admin PIN…</string>
-    <string name="d_cards_unblock_open">Unblock PIN…</string>
-    <string name="d_cards_reset_open">Factory reset…</string>
+    <string name="d_cards_change_pin_open">PIN 변경…</string>
+    <string name="d_cards_change_admin_open">관리자 PIN 변경…</string>
+    <string name="d_cards_unblock_open">PIN 차단 해제…</string>
+    <string name="d_cards_reset_open">공장 초기화…</string>
 
     <!-- ── PIN cache ──────────────────────────────────────────────────── -->
-    <string name="d_cards_pin_cache_title">PIN cache</string>
+    <string name="d_cards_pin_cache_title">PIN 캐시</string>
     <string name="d_cards_pin_cache_toggle">Remember the user PIN after a successful operation</string>
     <string name="d_cards_pin_cache_keep_for">Keep for:</string>
     <string name="d_cards_pin_cache_custom_seconds">%1$d s</string>
@@ -375,13 +375,13 @@
     <string name="d_cards_pin_cache_note">Held in memory only — never written to disk. A wrong PIN, quitting the app, or Clear now drops it. The Admin PIN is never cached.</string>
 
     <!-- ── Dialogs ────────────────────────────────────────────────────── -->
-    <string name="d_cards_new_pin_min6">New PIN (min 6)</string>
-    <string name="d_cards_new_admin_min8">New Admin PIN (min 8)</string>
-    <string name="d_cards_new_user_pin_min6">New user PIN (min 6)</string>
+    <string name="d_cards_new_pin_min6">새 PIN (min 6)</string>
+    <string name="d_cards_new_admin_min8">새 관리자 PIN (min 8)</string>
+    <string name="d_cards_new_user_pin_min6">새 사용자 PIN (min 6)</string>
     <string name="d_cards_pin_retry_warning">Wrong entries burn retry attempts — the card blocks after too many.</string>
     <string name="d_cards_reset_warning">This ERASES every key on the card and resets both PINs to their defaults (123456 / 12345678). Keys generated on-card are unrecoverable. This cannot be undone.</string>
     <string name="d_cards_reset_type_prompt">Type %1$s to confirm</string>
-    <string name="d_cards_reset_confirm">Erase card</string>
+    <string name="d_cards_reset_confirm">카드 지우기</string>
     <string name="d_cards_keygen_warning">Generates an Ed25519 signing key + Cv25519 encryption key ON the card. OVERWRITES the card\'s signature and decryption slots. The private keys never leave the hardware and CANNOT be backed up — lose the card, lose the keys.</string>
     <string name="d_cards_expires_colon">Expires:</string>
     <string name="d_cards_keygen_ack">I understand this overwrites the card\'s keys and they can\'t be backed up</string>
@@ -391,20 +391,20 @@
 
 
     <!-- ═══ Key detail dialog (D11b) ══════════════════════ -->
-    <string name="d_keydetail_no_user_id">(no user ID)</string>
-    <string name="d_keydetail_badge_secret">SECRET</string>
-    <string name="d_keydetail_badge_card">CARD</string>
-    <string name="d_keydetail_badge_expired">EXPIRED</string>
+    <string name="d_keydetail_no_user_id">(사용자 ID 없음)</string>
+    <string name="d_keydetail_badge_secret">비밀</string>
+    <string name="d_keydetail_badge_card">카드</string>
+    <string name="d_keydetail_badge_expired">만료됨</string>
 
     <!-- ── Identity ────────────────────────────────────── -->
-    <string name="d_keydetail_copy_fingerprint">Copy fingerprint</string>
-    <string name="d_keydetail_status_fingerprint_copied">Fingerprint copied</string>
-    <string name="d_keydetail_key_id">Key ID</string>
-    <string name="d_keydetail_make_default_signing">Make default signing key</string>
+    <string name="d_keydetail_copy_fingerprint">지문 복사</string>
+    <string name="d_keydetail_status_fingerprint_copied">지문 복사됨</string>
+    <string name="d_keydetail_key_id">키 ID</string>
+    <string name="d_keydetail_make_default_signing">기본 서명 키로 만들기</string>
 
     <!-- ── Subkey list ─────────────────────────────────── -->
-    <string name="d_keydetail_section_keys">Keys (%1$d)</string>
-    <string name="d_keydetail_subkey">Subkey</string>
+    <string name="d_keydetail_section_keys">키 (%1$d)</string>
+    <string name="d_keydetail_subkey">서브키</string>
     <string name="d_keydetail_subkey_meta">%1$s · Created %2$s</string>
     <string name="d_keydetail_subkey_meta_expires">%1$s · Created %2$s · Expires %3$s</string>
 
@@ -422,33 +422,33 @@
     <string name="d_keydetail_refresh_servers">Refresh from key servers</string>
 
     <!-- ── Danger zone + save dialog ───────────────────── -->
-    <string name="d_keydetail_danger_zone">Danger zone</string>
-    <string name="d_keydetail_save_dialog_title">Export key</string>
+    <string name="d_keydetail_danger_zone">위험 구역</string>
+    <string name="d_keydetail_save_dialog_title">키 내보내기</string>
     <string name="d_keydetail_status_exported">Exported %1$s</string>
     <string name="d_keydetail_status_nothing_to_export">Nothing to export</string>
 
     <!-- ── QR dialog ───────────────────────────────────── -->
-    <string name="d_keydetail_qr_title">Public key QR</string>
+    <string name="d_keydetail_qr_title">공개 키 QR</string>
     <string name="d_keydetail_qr_hint">Scan with PGPony on another device to import %1$s.</string>
     <string name="d_keydetail_qr_too_large">This key is too large to fit in a QR code — export the .asc file and share that instead.</string>
     <string name="d_keydetail_qr_no_material">No public key material to show.</string>
-    <string name="d_keydetail_qr_save_png">Save PNG…</string>
+    <string name="d_keydetail_qr_save_png">PNG 저장…</string>
     <string name="d_keydetail_status_qr_saved">QR saved — %1$s</string>
 
     <!-- ── Expiration dialog ───────────────────────────── -->
-    <string name="d_keydetail_expiry_never">Never expires</string>
+    <string name="d_keydetail_expiry_never">만료되지 않음</string>
     <string name="d_keydetail_expiry_date_label">Expires on (YYYY-MM-DD)</string>
     <string name="d_keydetail_expiry_note">Re-signs the key\'s self-certification and subkey bindings.</string>
 
     <!-- ── Revoke dialog ──────────────────────────────── -->
-    <string name="d_keydetail_revoke_title">Revoke %1$s</string>
+    <string name="d_keydetail_revoke_title">%1$s 철회</string>
     <string name="d_keydetail_revoke_warning">Revocation marks this key as unusable for new signatures and encryption. Past messages remain decryptable. This cannot be undone.</string>
     <string name="d_keydetail_revoke_ack">I understand this cannot be undone</string>
 
     <!-- ── Shared desktop buttons (cont.) ───────────────── -->
-    <string name="d_common_edit_ellipsis">Edit…</string>
-    <string name="d_common_add_ellipsis">Add…</string>
-    <string name="d_common_rendering">Rendering…</string>
+    <string name="d_common_edit_ellipsis">편집…</string>
+    <string name="d_common_add_ellipsis">추가…</string>
+    <string name="d_common_rendering">렌더링…</string>
 
 
     <!-- ═══ Keyring repository (D11b) ════════════════ -->
@@ -459,8 +459,8 @@
         <item quantity="other">%1$d blocks: %2$s</item>
     </plurals>
     <plurals name="d_import_summary_added">
-        <item quantity="one">%1$d added</item>
-        <item quantity="other">%1$d added</item>
+        <item quantity="one">%1$d 추가됨</item>
+        <item quantity="other">%1$d 추가됨</item>
     </plurals>
     <plurals name="d_import_summary_upgraded">
         <item quantity="one">, %1$d upgraded to key pair</item>
@@ -475,8 +475,8 @@
         <item quantity="other">, %1$d already in keyring</item>
     </plurals>
     <plurals name="d_import_summary_failed">
-        <item quantity="one">, %1$d failed</item>
-        <item quantity="other">, %1$d failed</item>
+        <item quantity="one">, %1$d 실패함</item>
+        <item quantity="other">, %1$d 실패함</item>
     </plurals>
 
     <!-- ── Repository errors (surfaced verbatim via Throwable.message) ── -->
@@ -495,7 +495,7 @@
     <string name="d_list_separator">, </string>
     <string name="d_status_migrated_legacy">Migrated the legacy keyring — %1$s</string>
     <string name="d_status_autorefresh">Key server auto-refresh: %1$s</string>
-    <string name="d_status_import">Import — %1$s</string>
+    <string name="d_status_import">가져오기 — %1$s</string>
     <string name="d_status_generating">Generating %1$s key…</string>
     <string name="d_status_generated">Generated %1$s — %2$s</string>
     <string name="d_status_generate_failed">Generation failed: %1$s</string>
@@ -529,21 +529,21 @@
     <string name="d_notif_key_expiration">PGPony — key expiration</string>
 
     <!-- ── Menu bar. Mnemonics are keys too: 'F' does not appear in 'Datei'. ── -->
-    <string name="d_menu_file">File</string>
+    <string name="d_menu_file">파일</string>
     <string name="d_menu_file_mnemonic">F</string>
     <string name="d_menu_goto_keyring">Go to Keyring (import)</string>
     <string name="d_menu_restore_backup">Restore backup…</string>
-    <string name="d_menu_quit">Quit</string>
-    <string name="d_menu_keys">Keys</string>
+    <string name="d_menu_quit">종료</string>
+    <string name="d_menu_keys">키</string>
     <string name="d_menu_keys_mnemonic">K</string>
-    <string name="d_menu_new_key">New key…</string>
-    <string name="d_menu_hardware_keys">Hardware keys</string>
-    <string name="d_menu_message">Message</string>
+    <string name="d_menu_new_key">새 키…</string>
+    <string name="d_menu_hardware_keys">하드웨어 키</string>
+    <string name="d_menu_message">메시지</string>
     <string name="d_menu_message_mnemonic">M</string>
-    <string name="d_menu_help">Help</string>
+    <string name="d_menu_help">도움말</string>
     <string name="d_menu_help_mnemonic">H</string>
     <string name="d_menu_about">About PGPony</string>
-    <string name="d_menu_encrypt_decrypt">Encrypt / Decrypt</string>
+    <string name="d_menu_encrypt_decrypt">암호화 / 복호화</string>
 
     <!-- ═══ Batch 1: key generation, cards, key refresh, expiry (D11b) ═══ -->
     <!-- ── Generate-key dialog. The algorithm names themselves (Ed25519, RSA 4096) are
@@ -561,8 +561,8 @@
     <!-- ── Card dialog + PC/SC transport errors. The reader name is an argument; the
          quotes around it are per-locale. ── -->
     <string name="d_cards_choose_reader">Choose reader</string>
-    <string name="d_cards_rescan">Rescan</string>
-    <string name="d_cards_pin_pw1">Card PIN (PW1)</string>
+    <string name="d_cards_rescan">재스캔</string>
+    <string name="d_cards_pin_pw1">카드 PIN (PW1)</string>
     <string name="d_cards_talking_touch">Talking to the hardware key… if it has touch confirmation, tap it now.</string>
     <string name="d_cards_pin_scope_note">The PIN authorizes this one operation on the key itself; secrets never leave the hardware.</string>
     <string name="d_common_run">Run</string>

@@ -211,10 +211,10 @@
     <string name="settings_clipboard_autoclear_title">클립보드 자동 비우기</string>
     <string name="settings_clipboard_autoclear_subtitle">자동으로 복사된 내용을 지웁니다</string>
     <string name="settings_clipboard_clear_after_label">다음 시간이 지난 후 비우기</string>
-    <string name="settings_clipboard_interval_30s">30&nbsp;초</string>
-    <string name="settings_clipboard_interval_1m">1&nbsp;분</string>
-    <string name="settings_clipboard_interval_2m">2&nbsp;분</string>
-    <string name="settings_clipboard_interval_5m">5&nbsp;분</string>
+    <string name="settings_clipboard_interval_30s">30 초</string>
+    <string name="settings_clipboard_interval_1m">1 분</string>
+    <string name="settings_clipboard_interval_2m">2 분</string>
+    <string name="settings_clipboard_interval_5m">5 분</string>
 
     <!-- ── PGP Output section: customizable armor comment ───────────── -->
     <string name="settings_armor_comment_toggle_title">Include comment in PGP output</string>
@@ -340,7 +340,7 @@
     <!-- ── Recipients section ───────────────────────────────────────── -->
     <string name="encrypt_recipients_label">수신자</string>
     <string name="encrypt_recipients_choose">수신자를 선택하세요</string>
-    <string name="encrypt_recipients_selected_count">%1$d&nbsp;명 선택됨</string>
+    <string name="encrypt_recipients_selected_count">%1$d 명 선택됨</string>
     <string name="encrypt_recipients_no_keys">사용 가능한 키가 없습니다. 먼저 키를 가져오거나 생성해 주세요.</string>
     <string name="encrypt_recipients_search_label">키 검색</string>
     <string name="encrypt_recipients_clear_search">검색 창 비우기</string>
@@ -611,9 +611,9 @@
     <string name="import_method_key_server">키 서버</string>
 
     <!-- ── ExpirationOption enum (KeyringViewModel) ─────────────────── -->
-    <string name="expiration_one_year">1&nbsp;년</string>
-    <string name="expiration_two_years">2&nbsp;년</string>
-    <string name="expiration_five_years">5&nbsp;년</string>
+    <string name="expiration_one_year">1 년</string>
+    <string name="expiration_two_years">2 년</string>
+    <string name="expiration_five_years">5 년</string>
     <string name="expiration_never">없음</string>
 
     <!-- ════════════════════════════════════════════════════════════════
@@ -982,8 +982,8 @@
 
     <!-- ── Section titles ───────────────────────────────────────────── -->
     <string name="faq_section_getting_started">Getting Started</string>
-    <string name="faq_section_encrypt_decrypt">Encrypt &amp; Decrypt</string>
-    <string name="faq_section_security_privacy">Security &amp; Privacy</string>
+    <string name="faq_section_encrypt_decrypt">암호화 및 복호화</string>
+    <string name="faq_section_security_privacy">보안 및 개인 정보</string>
 
     <!-- ── Getting Started Q&amp;A ─────────────────────────────────────── -->
     <string name="faq_q_what_is_pgp">What is PGP encryption?</string>
@@ -1030,15 +1030,15 @@
     <!-- ════════════════════════════════════════════════════════════════
          MainActivity tabs — adds Contacts (was missing earlier)
          ════════════════════════════════════════════════════════════════ -->
-    <string name="main_tab_contacts">Contacts</string>
+    <string name="main_tab_contacts">연락처</string>
 
     <!-- ════════════════════════════════════════════════════════════════
          SecurityInfoScreen
          ════════════════════════════════════════════════════════════════ -->
-    <string name="security_info_title">Security &amp; Encryption</string>
+    <string name="security_info_title">보안 및 암호화</string>
     <string name="security_info_subtitle">How PGPony protects your messages and keys.</string>
 
-    <string name="security_info_block_openpgp_title">OpenPGP standards</string>
+    <string name="security_info_block_openpgp_title">OpenPGP 표준</string>
     <string name="security_info_block_openpgp_body">PGPony implements RFC 4880 (OpenPGP) and RFC 9580 (crypto-refresh). Messages are fully interoperable with GnuPG, OpenKeychain, and any other OpenPGP-compliant tool.</string>
 
     <string name="security_info_block_algorithms_title">Modern algorithms</string>
@@ -1100,9 +1100,9 @@
     <string name="onboarding_page_updates_toggle_subtitle">Notify me when a newer version is available.</string>
 
     <!-- ── OnboardingScreen — Skip / Next / Get Started ─────────────── -->
-    <string name="onboarding_screen_skip">Skip</string>
+    <string name="onboarding_screen_skip">건너뛰기</string>
     <string name="onboarding_screen_get_started">Get Started</string>
-    <string name="onboarding_screen_next">Next</string>
+    <string name="onboarding_screen_next">다음</string>
 
     <!-- ════════════════════════════════════════════════════════════════
          OnboardingGenerateSheet
@@ -1113,7 +1113,7 @@
     <string name="onboarding_generate_email_placeholder">jane@example.com</string>
     <string name="onboarding_generate_passphrase_section_label">Passphrase (optional)</string>
     <string name="onboarding_generate_passphrase_explainer">Protect your private key with a passphrase. If you forget it, the key is permanently inaccessible. No recovery is possible.</string>
-    <string name="onboarding_generate_button">Generate</string>
+    <string name="onboarding_generate_button">생성</string>
     <string name="onboarding_generate_in_progress_title">Generating your key pair…</string>
     <string name="onboarding_generate_in_progress_subtitle">This usually takes a couple of seconds.</string>
     <string name="onboarding_generate_done_title">Key created!</string>
@@ -1122,11 +1122,11 @@
     <!-- ════════════════════════════════════════════════════════════════
          ContactsScreen
          ════════════════════════════════════════════════════════════════ -->
-    <string name="contacts_screen_title">Contacts</string>
-    <string name="contacts_options_cd">Options</string>
+    <string name="contacts_screen_title">연락처</string>
+    <string name="contacts_options_cd">옵션</string>
     <string name="contacts_menu_discover_keys">Discover Keys</string>
     <string name="contacts_menu_auto_match">Auto-Match Keys</string>
-    <string name="contacts_menu_refresh">Refresh</string>
+    <string name="contacts_menu_refresh">새로 고치기</string>
     <string name="contacts_menu_reset_cache">Reset Keyserver Cache</string>
 
     <!-- ── Permission view ──────────────────────────────────────────── -->
@@ -1154,12 +1154,12 @@
 
     <!-- ── Trust badges (rendered in contact rows) ──────────────────── -->
     <string name="contacts_trust_unknown_cd">Unknown trust</string>
-    <string name="contacts_trust_unverified_cd">Unverified</string>
-    <string name="contacts_trust_verified_cd">Verified</string>
+    <string name="contacts_trust_unverified_cd">인증되지 않음</string>
+    <string name="contacts_trust_verified_cd">인증됨</string>
     <string name="contacts_trust_ultimate_cd">Ultimate trust</string>
 
     <!-- ── Row icons ────────────────────────────────────────────────── -->
-    <string name="contacts_linked_cd">Linked</string>
+    <string name="contacts_linked_cd">연결됨</string>
     <string name="contacts_already_checked_cd">Already checked, no key found</string>
     <string name="contacts_search_keyserver_cd">Search key server</string>
 
@@ -1180,16 +1180,16 @@
          KeyCard — used as a row across Keyring, Encrypt, etc.
          ════════════════════════════════════════════════════════════════ -->
     <string name="key_card_key_pair_cd">키쌍</string>
-    <string name="key_card_expired_badge">Expired</string>
-    <string name="key_card_revoked_badge">REVOKED</string>
+    <string name="key_card_expired_badge">만료됨</string>
+    <string name="key_card_revoked_badge">철회됨</string>
 
     <!-- ════════════════════════════════════════════════════════════════
          ExchangeScreen + ExchangeViewModel
          ════════════════════════════════════════════════════════════════ -->
-    <string name="exchange_screen_title">Exchange</string>
-    <string name="exchange_section_show_key">Show Key</string>
-    <string name="exchange_section_scan_key">Scan Key</string>
-    <string name="exchange_section_key_server">Key Server</string>
+    <string name="exchange_screen_title">교환</string>
+    <string name="exchange_section_show_key">키 보이기</string>
+    <string name="exchange_section_scan_key">키 스캔</string>
+    <string name="exchange_section_key_server">키 서버</string>
 
     <!-- ── Import-after-scan dialog ─────────────────────────────────── -->
     <string name="exchange_import_dialog_title">Import Scanned Key?</string>
@@ -1199,13 +1199,13 @@
     <string name="exchange_no_keys">Generate a key pair first to share your public key</string>
 
     <!-- ── QR code + buttons ────────────────────────────────────────── -->
-    <string name="exchange_qr_cd">Public key QR code</string>
+    <string name="exchange_qr_cd">공개 키 QR 코드</string>
     <string name="exchange_copy_key_button">키 복사</string>
     <string name="exchange_upload_button">올리기</string>
     <string name="exchange_upload_button_in_progress">올리는 중…</string>
 
     <!-- ── Scan section ─────────────────────────────────────────────── -->
-    <string name="exchange_scan_button">Open Scanner</string>
+    <string name="exchange_scan_button">스캐너 열기</string>
 
     <!-- ── Key server lookup ────────────────────────────────────────── -->
     <string name="exchange_keyserver_query_label">전자 우편 또는 지문</string>
@@ -1234,11 +1234,11 @@
     <string name="signer_lookup_searching_label">Searching key servers…</string>
     <string name="signer_lookup_found_title">Key found</string>
     <string name="signer_lookup_found_body">Importing this key adds it to your keyring and re-verifies the signature. The key\'s identity is not yet vetted. Only the math is being checked. Trust the sender independently before relying on the verified status.</string>
-    <string name="signer_lookup_import_button">Import</string>
+    <string name="signer_lookup_import_button">가져오기</string>
     <string name="signer_lookup_not_found_title">Signer not found</string>
     <string name="signer_lookup_not_found_body_format">No key was found for %1$s on any of your configured key servers. The signer may not have published their key. Ask them to share their public key directly.</string>
     <string name="signer_lookup_failed_title">Lookup failed</string>
-    <string name="signer_lookup_imported_title">Imported</string>
+    <string name="signer_lookup_imported_title">가져옴</string>
     <string name="signer_lookup_imported_body">The signature will be re-verified automatically.</string>
 
     <!-- ════════════════════════════════════════════════════════════════
@@ -1292,8 +1292,8 @@
     <string name="result_sheet_fingerprint_format">지문: %1$s</string>
     <string name="result_sheet_armored_block_format">Armored OpenPGP block, %1$d characters</string>
     <string name="result_sheet_revocation_block_format">Revocation certificate, %1$d characters</string>
-    <string name="result_sheet_copy_button">Copy to clipboard</string>
-    <string name="result_sheet_save_button">Save as .asc file</string>
+    <string name="result_sheet_copy_button">클립보드에 복사</string>
+    <string name="result_sheet_save_button">.asc 파일로 저장</string>
     <!-- RC3 §J: the key-export sheets' Save button is a real ACTION_CREATE_DOCUMENT save now; the system-share chooser moved to its own button. -->
     <string name="result_sheet_share_button">공유하기…</string>
     <string name="result_sheet_clipboard_warning">Clipboard contents are visible to all installed apps until cleared.</string>
@@ -1301,30 +1301,30 @@
     <!-- ── ExportPrivateKeyResultSheet ───────────────────────────────── -->
     <string name="export_private_sheet_title">Private Key Ready</string>
     <string name="export_private_sheet_warning">This key allows decrypting messages sent to you AND signing as you. Treat it like a password. Store it somewhere only you can reach.</string>
-    <string name="export_public_sheet_title">Share Public Key</string>
+    <string name="export_public_sheet_title">공개 키 공유</string>
     <string name="export_public_sheet_explainer">Anyone with this key can verify signatures from you and encrypt messages to you.</string>
 
     <!-- ── RevocationResultSheet ─────────────────────────────────────── -->
-    <string name="revocation_result_sheet_title">Key Revoked</string>
+    <string name="revocation_result_sheet_title">키 철회됨</string>
     <string name="revocation_result_sheet_explainer">Your key is now marked revoked in your keyring. Share the revocation certificate with anyone who has your public key so they stop encrypting new messages to it, and upload it to a keyserver to propagate the revocation broadly.</string>
 
     <!-- ════════════════════════════════════════════════════════════════
          FileEncryptionResultScreen
          ════════════════════════════════════════════════════════════════ -->
-    <string name="file_enc_result_title">File Encrypted</string>
-    <string name="file_enc_result_badge_signed">Signed</string>
+    <string name="file_enc_result_title">파일 암호화됨</string>
+    <string name="file_enc_result_badge_signed">서명됨</string>
     <string name="file_enc_result_badge_can_decrypt">Can Decrypt</string>
-    <string name="file_enc_result_save_button">Save to Files</string>
-    <string name="file_enc_result_share_button">Share Encrypted File</string>
-    <string name="file_enc_result_share_chooser_title">Share encrypted file</string>
-    <string name="file_enc_result_save_failed_default">Save failed</string>
-    <string name="file_enc_result_share_failed_default">Share failed</string>
+    <string name="file_enc_result_save_button">파일로 저장</string>
+    <string name="file_enc_result_share_button">암호화된 파일 공유</string>
+    <string name="file_enc_result_share_chooser_title">암호화된 파일 공유</string>
+    <string name="file_enc_result_save_failed_default">저장 실패</string>
+    <string name="file_enc_result_share_failed_default">공유 실패</string>
     <string name="file_enc_result_save_success">Saved successfully</string>
 
     <!-- ════════════════════════════════════════════════════════════════
          ContactLinkSheet
          ════════════════════════════════════════════════════════════════ -->
-    <string name="contact_link_sheet_title_link">Link to Contact</string>
+    <string name="contact_link_sheet_title_link">연락처와 연결</string>
     <string name="contact_link_sheet_title_auto_match">Auto-match Results</string>
     <string name="contact_link_sheet_filter_format">Showing contacts whose email matches %1$s</string>
     <string name="contact_link_sheet_empty_generic">No contacts with email addresses were found on this device.</string>
@@ -1333,34 +1333,34 @@
     <!-- ════════════════════════════════════════════════════════════════
          NotesEditorSheet
          ════════════════════════════════════════════════════════════════ -->
-    <string name="notes_editor_title_add">Add Notes</string>
-    <string name="notes_editor_title_edit">Edit Notes</string>
+    <string name="notes_editor_title_add">노트 추가</string>
+    <string name="notes_editor_title_edit">노트 편집</string>
     <string name="notes_editor_explainer">Notes are stored locally on this device only and are never included in exports or shares of this key.</string>
     <string name="notes_editor_placeholder">Notes about this key…</string>
 
     <!-- ════════════════════════════════════════════════════════════════
          SignAsSheet (encrypt-time signer picker)
          ════════════════════════════════════════════════════════════════ -->
-    <string name="sign_as_sheet_title">Sign as</string>
+    <string name="sign_as_sheet_title">다음으로 서명</string>
     <string name="sign_as_sheet_explainer">Recipients can verify the message came from this key. Anyone with your public key for that identity will see your name as the signer.</string>
-    <string name="sign_as_sheet_selected_cd">Selected</string>
-    <string name="sign_as_subkey_title">Signing key</string>
+    <string name="sign_as_sheet_selected_cd">선택됨</string>
+    <string name="sign_as_subkey_title">서명 키</string>
     <string name="sign_as_subkey_explainer">This key has more than one signing key. Choose which one signs.</string>
-    <string name="sign_as_subkey_automatic">Automatic</string>
+    <string name="sign_as_subkey_automatic">자동</string>
     <string name="sign_as_subkey_automatic_detail">%1$s · %2$s</string>
-    <string name="sign_as_subkey_primary_label">Primary key (%1$s)</string>
-    <string name="sign_as_subkey_subkey_label">Subkey (%1$s)</string>
-    <string name="sign_as_sheet_default_badge">DEFAULT</string>
-    <string name="sign_as_sheet_empty">No key pairs available.</string>
-    <string name="sign_as_sheet_set_default">Set as default signer</string>
-    <string name="sign_as_sheet_is_default">Default signer</string>
+    <string name="sign_as_subkey_primary_label">기본 키 (%1$s)</string>
+    <string name="sign_as_subkey_subkey_label">서브키 (%1$s)</string>
+    <string name="sign_as_sheet_default_badge">기본</string>
+    <string name="sign_as_sheet_empty">사용 가능한 키쌍이 없습니다.</string>
+    <string name="sign_as_sheet_set_default">기본 서명자로 설정</string>
+    <string name="sign_as_sheet_is_default">기본 서명자</string>
 
     <!-- ════════════════════════════════════════════════════════════════
          QRScannerScreen
          ════════════════════════════════════════════════════════════════ -->
-    <string name="qr_scanner_title">Scan QR Code</string>
-    <string name="qr_scanner_permission_title">Camera permission required</string>
-    <string name="qr_scanner_grant_button">Grant Permission</string>
+    <string name="qr_scanner_title">QR 코드 스캔</string>
+    <string name="qr_scanner_permission_title">카메라 권한 필요</string>
+    <string name="qr_scanner_grant_button">권한 허가</string>
     <string name="qr_scanner_hint">Point camera at a PGP public key QR code</string>
 
     <!-- ════════════════════════════════════════════════════════════════
@@ -1370,18 +1370,18 @@
     <string name="migration_overlay_body">Reading subkey information from your stored keys. This only happens once after upgrading.</string>
     <string name="migration_overlay_starting">Starting…</string>
     <string name="migration_overlay_progress_format">Updating key %1$d of %2$d</string>
-    <string name="migration_overlay_done">Done.</string>
+    <string name="migration_overlay_done">완료.</string>
     <string name="migration_overlay_error">Couldn\'t finish the update. The app will continue anyway. Some subkey details may be missing until you import or generate a new key.</string>
 
     <!-- ════════════════════════════════════════════════════════════════
          KeyShareIntents — Android share-sheet chooser titles + clip labels
          ════════════════════════════════════════════════════════════════ -->
-    <string name="share_intent_chooser_public_key">Share public key (.asc)</string>
-    <string name="share_intent_chooser_revocation_cert">Share revocation certificate (.asc)</string>
-    <string name="share_intent_chooser_private_key">Save PRIVATE key (.asc, sensitive)</string>
-    <string name="share_intent_clip_label_private_key">PGPony Private Key</string>
-    <string name="share_intent_clip_label_public_key">PGPony Public Key</string>
-    <string name="share_intent_clip_label_revocation_cert">PGPony Revocation Certificate</string>
+    <string name="share_intent_chooser_public_key">공개 키 공유 (.asc)</string>
+    <string name="share_intent_chooser_revocation_cert">철회 인증서 공유 (.asc)</string>
+    <string name="share_intent_chooser_private_key">개인 키 저장 (.asc, 민감)</string>
+    <string name="share_intent_clip_label_private_key">PGPony 개인 키</string>
+    <string name="share_intent_clip_label_public_key">PGPony 공개 키</string>
+    <string name="share_intent_clip_label_revocation_cert">PGPony 철회 인증서</string>
 
     <!-- ════════════════════════════════════════════════════════════════
          Phase A15 — Rich share-target activity (ShareTargetActivity)
@@ -1391,18 +1391,18 @@
          opens when text or a PGP file is shared into PGPony from
          another app. Mirrors the iOS PGPonyAction extension.
     -->
-    <string name="share_target_activity_label">PGPony Quick Action</string>
-    <string name="share_target_dismiss_cd">Dismiss</string>
+    <string name="share_target_activity_label">PGPony 빠른 동작</string>
+    <string name="share_target_dismiss_cd">무시</string>
 
     <!-- Root / classification screen -->
     <string name="share_target_root_title">What would you like to do?</string>
     <string name="share_target_root_subtitle_text">Choose how to handle the shared text:</string>
     <string name="share_target_root_subtitle_file_format">Choose how to handle %1$s:</string>
-    <string name="share_target_action_encrypt">Encrypt</string>
+    <string name="share_target_action_encrypt">암호화</string>
     <string name="share_target_action_encrypt_subtitle">Pick recipients and produce ciphertext</string>
-    <string name="share_target_action_decrypt">Decrypt / Verify</string>
+    <string name="share_target_action_decrypt">복호화 / 검증</string>
     <string name="share_target_action_decrypt_subtitle">Read this PGP message with one of your keys</string>
-    <string name="share_target_open_full_app">Open in PGPony</string>
+    <string name="share_target_open_full_app">PGPony에서 열기</string>
     <string name="share_target_open_full_app_subtitle_import">This looks like a PGP key. Import it from the Keyring tab</string>
     <string name="share_target_open_full_app_subtitle_setup">Set up your first key in the main app to use Quick Action</string>
 
@@ -1413,45 +1413,45 @@
     <string name="share_target_input_binary_format">Binary content. %1$d bytes</string>
 
     <!-- Encrypt screen -->
-    <string name="share_target_encrypt_title">Encrypt for…</string>
+    <string name="share_target_encrypt_title">다음으로 암호화…</string>
     <string name="share_target_encrypt_recipients_empty">No recipient keys in your keyring. Add a public key in the main app first.</string>
     <string name="share_target_encrypt_no_recipients_selected">Select at least one recipient</string>
-    <string name="share_target_encrypt_button">Encrypt</string>
-    <string name="share_target_encrypt_result_title">Encrypted</string>
+    <string name="share_target_encrypt_button">암호화</string>
+    <string name="share_target_encrypt_result_title">암호화됨</string>
     <string name="share_target_encrypt_file_result_title">Encrypted file</string>
     <string name="share_target_encrypt_file_result_subtitle">Your file was encrypted. Share or save the encrypted copy.</string>
-    <string name="share_target_encrypt_file_result_size_format">%1$d bytes</string>
-    <string name="share_target_encrypt_file_result_share_button">Share encrypted file</string>
+    <string name="share_target_encrypt_file_result_size_format">%1$d 바이트</string>
+    <string name="share_target_encrypt_file_result_share_button">암호화된 파일 공유</string>
     <string name="share_target_encrypt_result_subtitle_format">Ciphertext, %1$d characters</string>
 
     <!-- Decrypt screen -->
-    <string name="share_target_decrypt_title">Decrypt with…</string>
+    <string name="share_target_decrypt_title">다음으로 복호화…</string>
     <string name="share_target_decrypt_no_key_pairs">No private keys available. Generate or import a key pair in the main app first.</string>
     <string name="share_target_decrypt_auto_select_label">Best matching key</string>
     <string name="share_target_decrypt_passphrase_label">비밀구절</string>
-    <string name="share_target_decrypt_passphrase_optional">Passphrase (if key is protected)</string>
+    <string name="share_target_decrypt_passphrase_optional">비밀구절 (키가 보호되어 있다면)</string>
     <string name="share_target_decrypt_button">복호화</string>
-    <string name="share_target_decrypt_result_title">Decrypted</string>
-    <string name="share_target_decrypt_file_result_title">Decrypted file</string>
-    <string name="share_target_decrypt_file_result_share_button">Share decrypted file</string>
+    <string name="share_target_decrypt_result_title">복호화됨</string>
+    <string name="share_target_decrypt_file_result_title">파일 복호화됨</string>
+    <string name="share_target_decrypt_file_result_share_button">복호화된 파일 공유</string>
     <string name="share_target_decrypt_result_signed_format">Signed by %1$s</string>
     <string name="share_target_decrypt_result_unverified">Decrypted but signature is unverified</string>
-    <string name="share_target_decrypt_result_unsigned">Decrypted (no signature)</string>
+    <string name="share_target_decrypt_result_unsigned">복호화됨 (서명 없음)</string>
 
     <!-- Result actions -->
     <string name="share_target_result_copy">복사</string>
     <string name="share_target_result_share">공유</string>
     <string name="share_target_result_done">완료</string>
-    <string name="share_target_result_open_in_pgpony">Open in PGPony</string>
-    <string name="share_target_clip_label_encrypted">PGPony Encrypted Message</string>
-    <string name="share_target_clip_label_decrypted">PGPony Decrypted Message</string>
-    <string name="share_target_share_chooser_encrypted">Share encrypted message</string>
-    <string name="share_target_share_chooser_decrypted">Share decrypted message</string>
+    <string name="share_target_result_open_in_pgpony">PGPony에서 열기</string>
+    <string name="share_target_clip_label_encrypted">PGPony 암호화된 메시지</string>
+    <string name="share_target_clip_label_decrypted">PGPony 복호화된 메시지</string>
+    <string name="share_target_share_chooser_encrypted">암호화된 메시지 공유</string>
+    <string name="share_target_share_chooser_decrypted">복호화된 메시지 공유</string>
 
     <!-- Status / processing -->
-    <string name="share_target_processing">Working…</string>
-    <string name="share_target_status_copied">Copied to clipboard</string>
-    <string name="share_target_clip_unavailable">Clipboard unavailable</string>
+    <string name="share_target_processing">작업 중…</string>
+    <string name="share_target_status_copied">클립보드에 복사됨</string>
+    <string name="share_target_clip_unavailable">클립보드를 사용할 수 없음</string>
 
     <!-- Errors -->
     <string name="share_target_error_no_input">No content was shared. Nothing to act on.</string>
@@ -1468,10 +1468,10 @@
          can render them in their own language regardless of current locale.
          These strings are just the surrounding chrome.
          ════════════════════════════════════════════════════════════════ -->
-    <string name="settings_language_row_title">Language</string>
-    <string name="language_picker_title">Language</string>
+    <string name="settings_language_row_title">언어</string>
+    <string name="language_picker_title">언어</string>
     <string name="language_picker_footer">Most screens update immediately. Restart PGPony if some text remains in the previous language.</string>
-    <string name="onboarding_slide_language_title">Language</string>
+    <string name="onboarding_slide_language_title">언어</string>
     <string name="onboarding_slide_language_body">Choose the language you\'d like to use.\n\nYou can change this anytime in Settings.</string>
 
     <!-- HW Phase 1 — Hardware key (OpenPGP card) NFC scan. English-only
@@ -1488,41 +1488,41 @@
     <string name="card_scan_nfc_unavailable">This device does not have NFC, so hardware keys can\'t be used here.</string>
     <string name="card_scan_nfc_disabled">NFC is turned off. Enable NFC in system settings, then try again.</string>
     <string name="card_scan_found_title">Card detected</string>
-    <string name="card_scan_section_card">Card</string>
+    <string name="card_scan_section_card">카드</string>
     <string name="card_scan_section_keys">Keys on card</string>
-    <string name="card_scan_label_manufacturer">Manufacturer</string>
-    <string name="card_scan_label_serial">Serial</string>
+    <string name="card_scan_label_manufacturer">제조사</string>
+    <string name="card_scan_label_serial">시리얼</string>
     <string name="card_scan_label_aid">AID</string>
     <string name="card_scan_label_pin_tries">User PIN tries left</string>
     <string name="card_scan_label_admin_tries">Admin PIN tries left</string>
-    <string name="card_scan_slot_signature">Signature</string>
-    <string name="card_scan_slot_decryption">Decryption</string>
-    <string name="card_scan_slot_authentication">Authentication</string>
-    <string name="card_scan_slot_empty">Empty</string>
+    <string name="card_scan_slot_signature">서명</string>
+    <string name="card_scan_slot_decryption">복호화</string>
+    <string name="card_scan_slot_authentication">인증</string>
+    <string name="card_scan_slot_empty">비어 있음</string>
     <string name="card_scan_slot_generated">Generated %1$s</string>
     <string name="card_scan_slot_generated_unknown">Not recorded</string>
     <string name="card_scan_import_button">Import to keyring</string>
-    <string name="card_scan_importing">Importing…</string>
-    <string name="card_scan_imported">Hardware key imported</string>
-    <string name="card_scan_scan_again">Scan again</string>
+    <string name="card_scan_importing">가져오는 중…</string>
+    <string name="card_scan_imported">하드웨어 키 가져옴</string>
+    <string name="card_scan_scan_again">다시 스캔</string>
     <string name="card_scan_back">뒤로</string>
 
     <!-- HW Phase 2a — Change user PIN. English-only for now. -->
-    <string name="card_pin_change_open">Change User PIN</string>
-    <string name="card_mgmt_title">Card Management</string>
+    <string name="card_pin_change_open">사용자 PIN 변경</string>
+    <string name="card_mgmt_title">카드 관리</string>
     <string name="card_mgmt_back">뒤로</string>
     <string name="card_mgmt_subtitle">Manage the admin PIN, unblock the user PIN, or factory-reset this card.</string>
-    <string name="card_mgmt_open">Manage card (admin)</string>
+    <string name="card_mgmt_open">카드 관리 (관리자)</string>
     <string name="card_mgmt_action_change_admin">Change admin PIN</string>
     <string name="card_mgmt_action_unblock">Unblock user PIN</string>
-    <string name="card_mgmt_action_factory_reset">Factory reset card</string>
+    <string name="card_mgmt_action_factory_reset">카드 공장 초기화</string>
     <string name="card_mgmt_admin_hint">The admin PIN (PW3) authorizes management operations. Default is 12345678. Minimum 8 digits.</string>
     <string name="card_mgmt_unblock_hint">If the user PIN is blocked, set a new one using the admin PIN. Minimum 6 digits.</string>
-    <string name="card_mgmt_field_current_admin">Current admin PIN</string>
-    <string name="card_mgmt_field_new_admin">New admin PIN</string>
-    <string name="card_mgmt_field_admin">Admin PIN</string>
-    <string name="card_mgmt_field_new_user">New user PIN</string>
-    <string name="card_mgmt_field_confirm">Confirm new PIN</string>
+    <string name="card_mgmt_field_current_admin">현재 관리자 PIN</string>
+    <string name="card_mgmt_field_new_admin">새 관리자 PIN</string>
+    <string name="card_mgmt_field_admin">관리자 PIN</string>
+    <string name="card_mgmt_field_new_user">새 사용자 PIN</string>
+    <string name="card_mgmt_field_confirm">새 PIN 확인</string>
     <string name="card_mgmt_error_mismatch">PINs do not match.</string>
     <string name="card_mgmt_error_admin_short">Admin PIN must be at least 8 digits.</string>
     <string name="card_mgmt_error_user_short">User PIN must be at least 6 digits.</string>
@@ -1532,12 +1532,12 @@
     <string name="card_mgmt_reset_confirm2_prompt">Are you absolutely sure? This wipes the card.</string>
     <string name="card_mgmt_reset_confirm2">Yes, wipe the card</string>
     <string name="card_mgmt_tap_prompt">Hold your card to the back of the phone.</string>
-    <string name="card_mgmt_done_admin">Admin PIN changed.</string>
+    <string name="card_mgmt_done_admin">관리자 PIN 변경됨.</string>
     <string name="card_mgmt_done_unblock">User PIN unblocked.</string>
     <string name="card_mgmt_done_reset">Card factory reset. Default PINs restored (user 123456, admin 12345678).</string>
     <string name="card_mgmt_done_button">완료</string>
     <string name="card_mgmt_failed_generic">Card operation failed.</string>
-    <string name="card_mgmt_retry">Try again</string>
+    <string name="card_mgmt_retry">다시 시도하세요</string>
     <string name="card_keygen_open">Generate new key on card</string>
     <string name="card_keygen_title">Generate Key on Card</string>
     <string name="card_keygen_back">뒤로</string>
@@ -1548,30 +1548,30 @@
     <string name="card_keygen_field_admin_pin">Admin PIN (PW3)</string>
     <string name="card_keygen_field_user_pin">User PIN (PW1)</string>
     <string name="card_keygen_ack">I understand these keys cannot be backed up.</string>
-    <string name="card_keygen_generate">Generate on card</string>
+    <string name="card_keygen_generate">카드에서 생성</string>
     <string name="card_keygen_tap_prompt">Hold your card to the back of the phone and keep it still. Generating keys takes a few seconds.</string>
     <string name="card_keygen_saving">Saving the new key to your keyring…</string>
     <string name="card_keygen_done">Key generated on card.</string>
-    <string name="card_keygen_done_primary_fp">Signing key: %1$s</string>
-    <string name="card_keygen_done_subkey_fp">Encryption key: %1$s</string>
+    <string name="card_keygen_done_primary_fp">서명 키: %1$s</string>
+    <string name="card_keygen_done_subkey_fp">암호화 키: %1$s</string>
     <string name="card_keygen_done_button">완료</string>
-    <string name="card_keygen_failed_generate">Key generation failed.</string>
+    <string name="card_keygen_failed_generate">키 생성 실패.</string>
     <string name="card_keygen_failed_save">The key was generated but could not be saved to the keyring.</string>
     <string name="card_keygen_retry">다시 시도하세요</string>
     <string name="settings_section_pass_store">비밀번호 저장소</string>
     <string name="settings_pass_store_enable_title">비밀번호 저장소</string>
     <string name="settings_pass_store_enable_subtitle">Open and decrypt an existing pass store. PGPony reads it in place and never modifies it.</string>
-    <string name="settings_pass_store_biometric_title">Require biometric</string>
+    <string name="settings_pass_store_biometric_title">생체 인증 요구</string>
     <string name="settings_pass_store_biometric_subtitle">Ask for biometric unlock before opening the Password Store.</string>
-    <string name="settings_pass_store_open_title">Open Password Store</string>
+    <string name="settings_pass_store_open_title">비밀번호 저장소 열기</string>
     <string name="settings_pass_store_open_subtitle">Browse your imported stores.</string>
     <string name="pass_store_title">비밀번호 저장소</string>
     <string name="pass_back">뒤로</string>
     <string name="pass_cancel">취소</string>
-    <string name="pass_store_import">Import store</string>
-    <string name="pass_store_remove_title">Remove store</string>
+    <string name="pass_store_import">저장소 가져오기</string>
+    <string name="pass_store_remove_title">저장소 제거</string>
     <string name="pass_store_remove_message">Remove %1$s from PGPony? This only removes the reference. Your files are not touched.</string>
-    <string name="pass_store_remove_confirm">Remove</string>
+    <string name="pass_store_remove_confirm">제거</string>
     <string name="pass_store_no_gpg_id">No .gpg-id found</string>
     <string name="pass_store_empty_title">No stores yet</string>
     <string name="pass_store_empty_body">Import an existing pass (password-store) folder to browse and decrypt its entries, including with your hardware key. PGPony reads your store in place and never modifies it.</string>
@@ -1588,13 +1588,13 @@
     <string name="pass_entry_decrypt">Decrypt entry</string>
     <string name="pass_entry_passphrase_hint">This key is protected by a passphrase. Enter it to decrypt.</string>
     <string name="pass_entry_passphrase_wrong">Could not decrypt. Check the passphrase and try again.</string>
-    <string name="pass_entry_passphrase_label">Key passphrase</string>
-    <string name="pass_entry_unlock">Unlock</string>
-    <string name="pass_entry_password_label">Password</string>
-    <string name="pass_entry_empty_password">(empty)</string>
+    <string name="pass_entry_passphrase_label">키 비밀구절</string>
+    <string name="pass_entry_unlock">잠금 해제</string>
+    <string name="pass_entry_password_label">비밀번호</string>
+    <string name="pass_entry_empty_password">(비어 있음)</string>
     <string name="pass_entry_reveal">Show or hide</string>
     <string name="pass_entry_copy">복사</string>
-    <string name="pass_entry_otp_label">One-time code (OTP)</string>
+    <string name="pass_entry_otp_label">일회용 코드 (OTP)</string>
     <string name="pass_entry_otp_note">Detected one-time-code URI. Code generation is not supported.</string>
     <string name="pass_entry_notes_label">Notes</string>
     <string name="pass_entry_try_again">Try again</string>
@@ -1605,32 +1605,32 @@
     <string name="pass_entry_card_nfc_off">This entry needs a hardware key, but NFC is off or unavailable on this device. Enable NFC and try again.</string>
     <string name="pass_entry_card_failed">Hardware-key decryption failed.</string>
     <plurals name="pass_store_recipients">
-        <item quantity="one">%1$d recipient</item>
-        <item quantity="other">%1$d recipients</item>
+        <item quantity="one">수신자 %1$d 명</item>
+        <item quantity="other">수신자 %1$d 명</item>
     </plurals>
     <string name="card_pin_change_title">Change User PIN</string>
     <string name="card_pin_change_intro">Change the user PIN (PW1) on your hardware key. This is the PIN you enter to sign and decrypt. Not the admin PIN.</string>
-    <string name="card_pin_change_current_label">Current PIN</string>
-    <string name="card_pin_change_new_label">New PIN</string>
-    <string name="card_pin_change_confirm_label">Confirm new PIN</string>
+    <string name="card_pin_change_current_label">현재 PIN</string>
+    <string name="card_pin_change_new_label">새 PIN</string>
+    <string name="card_pin_change_confirm_label">새 PIN 확인</string>
     <string name="card_pin_change_too_short">PIN must be at least 6 characters.</string>
     <string name="card_pin_change_mismatch">PINs don\'t match.</string>
-    <string name="card_pin_change_button">Change PIN</string>
+    <string name="card_pin_change_button">PIN 변경</string>
     <string name="card_pin_change_hold_card">Hold your security key to the phone…</string>
-    <string name="card_pin_change_success">User PIN changed</string>
+    <string name="card_pin_change_success">사용자 PIN 변경됨</string>
     <string name="card_pin_change_done">완료</string>
-    <string name="card_pin_change_try_again">Try again</string>
+    <string name="card_pin_change_try_again">다시 시도하세요</string>
 
     <!-- HW Phase 2b — Sign with card (test/verify harness). English-only. -->
-    <string name="card_sign_open">Sign test message</string>
-    <string name="card_sign_title">Sign with hardware key</string>
+    <string name="card_sign_open">시험 메시지 서명</string>
+    <string name="card_sign_title">하드웨어 키로 서명</string>
     <string name="card_sign_intro">Clear-sign a message with the card\'s signature key. Copy the output and verify it with \"gpg --verify\". The card\'s public key must already be paired in your keyring.</string>
-    <string name="card_sign_message_label">Message to sign</string>
-    <string name="card_sign_pin_label">User PIN (PW1)</string>
-    <string name="card_sign_button">Sign</string>
+    <string name="card_sign_message_label">서명할 메시지</string>
+    <string name="card_sign_pin_label">사용자 PIN (PW1)</string>
+    <string name="card_sign_button">서명</string>
     <string name="card_sign_hold_card">Hold your security key to the phone…</string>
-    <string name="card_sign_result_title">Signed</string>
-    <string name="card_sign_copy">Copy signed message</string>
+    <string name="card_sign_result_title">서명됨</string>
+    <string name="card_sign_copy">서명된 메시지 복사</string>
     <string name="card_sign_again">Sign another</string>
 
     <!-- HW Phase 2b-step2 — card signing on the main Sign tab. -->
@@ -1646,16 +1646,16 @@
     <string name="card_decrypt_title">Decrypt with hardware key</string>
     <string name="card_decrypt_intro">Paste a PGP message encrypted to this card\'s key, enter your user PIN, and hold the card to your phone to decrypt. The card\'s public key must already be paired in your keyring.</string>
     <string name="card_decrypt_message_label">Encrypted message</string>
-    <string name="card_decrypt_pin_label">User PIN (PW1)</string>
+    <string name="card_decrypt_pin_label">사용자 PIN (PW1)</string>
     <string name="card_decrypt_button">복호화</string>
     <string name="card_decrypt_hold_card">Hold your security key to the phone…</string>
-    <string name="card_decrypt_result_title">Decrypted</string>
+    <string name="card_decrypt_result_title">복호화됨</string>
     <string name="card_decrypt_copy">Copy plaintext</string>
     <string name="card_decrypt_again">Decrypt another</string>
 
     <!-- HW Phase 3 — Decrypt tab card-message detection -->
     <string name="decrypt_card_message_note">Encrypted to your hardware key \"%1$s\". Enter your PIN and tap the card to decrypt.</string>
-    <string name="decrypt_card_message_fallback_name">security key</string>
+    <string name="decrypt_card_message_fallback_name">보안 키</string>
     <!-- 4.1.0: hidden recipient (gpg -R). The message names nobody, so the
          card is offered only after every software key has failed. -->
     <string name="decrypt_card_message_note_hidden">This message hides its recipient. Enter your PIN and tap \"%1$s\" to try your hardware key.</string>
@@ -1663,16 +1663,16 @@
 
     <!-- HW Phase 3 — share-target card decrypt -->
     <string name="share_target_card_label">하드웨어 키</string>
-    <string name="share_target_card_fallback_name">Your security key</string>
+    <string name="share_target_card_fallback_name">나의 보안 키</string>
     <string name="share_target_card_note">This message is encrypted to your hardware key. Enter your PIN and tap the card to decrypt.</string>
 
     <!-- Key expiration editing -->
-    <string name="key_detail_expiry_edit">Edit expiration</string>
-    <string name="key_detail_expiry_sheet_title">Edit expiration</string>
+    <string name="key_detail_expiry_edit">만료 편집</string>
+    <string name="key_detail_expiry_sheet_title">만료 편집</string>
     <string name="key_detail_expiry_sheet_subtitle">Set a new expiration for %1$s. This re-signs the key and its subkeys; the fingerprint stays the same.</string>
-    <string name="key_detail_expiry_custom">Custom date</string>
-    <string name="key_detail_expiry_pick_date">Pick a date</string>
-    <string name="key_detail_expiry_passphrase_label">Key passphrase (if set)</string>
+    <string name="key_detail_expiry_custom">사용자 지정 날짜</string>
+    <string name="key_detail_expiry_pick_date">날짜를 고르세요</string>
+    <string name="key_detail_expiry_passphrase_label">키 비밀구절 (설정되어 있다면)</string>
     <string name="key_detail_expiry_card_hint">Enter your PIN, then hold the security key to your phone when prompted.</string>
     <string name="key_detail_expiry_apply">Update expiration</string>
     <string name="key_detail_expiry_failed">Could not update expiration. Please try again.</string>
@@ -1684,36 +1684,36 @@
     <string name="sign_biometric_prompt_subtitle">Authenticate to sign with your key</string>
 
     <!-- Keyring sorting -->
-    <string name="keyring_sort_cd">Sort keys</string>
-    <string name="keyring_sort_alpha_asc">Name (A\u2013Z)</string>
-    <string name="keyring_sort_alpha_desc">Name (Z\u2013A)</string>
-    <string name="keyring_sort_manual">Custom order</string>
+    <string name="keyring_sort_cd">키 정렬</string>
+    <string name="keyring_sort_alpha_asc">이름 (A\u2013Z)</string>
+    <string name="keyring_sort_alpha_desc">이름 (Z\u2013A)</string>
+    <string name="keyring_sort_manual">사용자 지정 순서</string>
     <string name="keyring_drag_handle_cd">Drag to reorder</string>
 
-    <string name="common_clear">Clear</string>
+    <string name="common_clear">비우기</string>
     <string name="key_detail_action_change_card_pin">Change card PIN</string>
     <!-- 3.1.0 Phase 2 (C4) — file password encryption + import read error -->
-    <string name="encrypt_file_method_label">Encrypt with</string>
-    <string name="encrypt_file_method_recipients">Recipients</string>
-    <string name="encrypt_file_method_password">Password</string>
+    <string name="encrypt_file_method_label">다음으로 암호화</string>
+    <string name="encrypt_file_method_recipients">수신자</string>
+    <string name="encrypt_file_method_password">비밀번호</string>
     <string name="encrypt_password_unrecoverable">If you forget the passphrase, the file cannot be recovered. There is no backup or reset.</string>
-    <string name="file_enc_result_badge_password">Password protected</string>
+    <string name="file_enc_result_badge_password">비밀번호로 보호됨</string>
     <string name="keyring_error_file_read_failed">Couldn\'t read the file. Check that it\'s downloaded and available, then try again.</string>
     <!-- 3.1.0 Phase 4 (J1) — structured PGP/MIME decrypt result -->
-    <string name="structured_result_title">Decrypted message</string>
-    <string name="structured_result_attachments_format">Attachments (%1$d)</string>
-    <string name="structured_result_share_all">Share all</string>
+    <string name="structured_result_title">복호화된 메시지</string>
+    <string name="structured_result_attachments_format">첨부 (%1$d)</string>
+    <string name="structured_result_share_all">모두 공유</string>
     <!-- 3.1.0 Phase 5 (J3/J4) — Bundle compose + outputs -->
-    <string name="encrypt_mode_bundle">Bundle</string>
-    <string name="encrypt_bundle_body_label">Message</string>
+    <string name="encrypt_mode_bundle">번들</string>
+    <string name="encrypt_bundle_body_label">메시지</string>
     <!-- 4.0.0 Phase 9 (F6) — Bundle body character count -->
-    <string name="encrypt_bundle_char_count_format">%1$d characters</string>
-    <string name="encrypt_bundle_add_photos">Add photos</string>
-    <string name="encrypt_bundle_add_files">Add files</string>
-    <string name="encrypt_bundle_attachments_format">Attachments (%1$d)</string>
-    <string name="encrypt_bundle_remove">Remove attachment</string>
+    <string name="encrypt_bundle_char_count_format">%1$d 자</string>
+    <string name="encrypt_bundle_add_photos">사진 추가</string>
+    <string name="encrypt_bundle_add_files">파일 추가</string>
+    <string name="encrypt_bundle_attachments_format">첨부 (%1$d)</string>
+    <string name="encrypt_bundle_remove">첨부 제거</string>
     <string name="encrypt_bundle_show_all_format">Show all %1$d files</string>
-    <string name="encrypt_bundle_show_fewer">Show fewer</string>
+    <string name="encrypt_bundle_show_fewer">더 적게 보이기</string>
     <string name="encdec_error_bundle_empty">Add a message or at least one attachment</string>
     <!-- 4.1.0 Phase 14c, reworded in Phase 15 once card signing arrived.
          The backstop for "Also sign" on with a signing key the software
@@ -1721,12 +1721,12 @@
          unsigned bundle. Card keys no longer reach it, they route to the
          PIN dialog instead. -->
     <string name="encdec_error_bundle_signing_key">This bundle could not be signed: the selected signing key could not be unlocked. Choose a different signing key, or turn signing off.</string>
-    <string name="bundle_result_title">Bundle encrypted</string>
+    <string name="bundle_result_title">번들 암호화됨</string>
     <string name="bundle_result_subtitle_format">%1$d attachments · %2$d recipients</string>
-    <string name="bundle_result_section_email">Send as email</string>
-    <string name="bundle_result_section_file">Send as file</string>
-    <string name="bundle_result_share_eml">Share as Email (.eml)</string>
-    <string name="bundle_result_share_asc">Share encrypted .asc</string>
+    <string name="bundle_result_section_email">전자 우편으로 보내기</string>
+    <string name="bundle_result_section_file">파일로 보내기</string>
+    <string name="bundle_result_share_eml">전자 우편으로 공유 (.eml)</string>
+    <string name="bundle_result_share_asc">암호화된 .asc 공유</string>
     <string name="bundle_result_copy_inline">Copy inline block</string>
     <string name="bundle_result_copy_too_large">Too large to copy. Share or save it as a file instead.</string>
     <string name="bundle_result_export_writing">Writing file… this can take a while for a large bundle.</string>
@@ -1736,13 +1736,13 @@
     <!-- 3.1.0 Phase 6 (J6) — Quick Action PGP/MIME note -->
     <string name="share_target_mime_attachments_note_format">Contains %1$d attachments. Open the message in PGPony to preview and save them.</string>
     <!-- 3.1.0 Phase 7 (B1/B2/B3) — Remember Card PIN -->
-    <string name="settings_card_pin_cache_title">Remember card PIN</string>
+    <string name="settings_card_pin_cache_title">카드 PIN 기억</string>
     <string name="settings_card_pin_cache_subtitle">Keep the user PIN in memory for a chosen duration. Never stored on disk; cleared by a wrong PIN or closing the app.</string>
-    <string name="settings_card_pin_cache_duration_label">Remember for</string>
-    <string name="settings_card_pin_cache_1min">1 min</string>
-    <string name="settings_card_pin_cache_5min">5 min</string>
-    <string name="settings_card_pin_cache_15min">15 min</string>
-    <string name="settings_card_pin_cache_1hr">1 hour</string>
+    <string name="settings_card_pin_cache_duration_label">다음동안 기억</string>
+    <string name="settings_card_pin_cache_1min">1 분</string>
+    <string name="settings_card_pin_cache_5min">5 분</string>
+    <string name="settings_card_pin_cache_15min">15 분</string>
+    <string name="settings_card_pin_cache_1hr">1 시간</string>
     <string name="settings_card_pin_cache_countdown_format">PIN remembered. Clears in %1$s</string>
     <string name="settings_card_pin_cache_none_held">No PIN is currently remembered.</string>
     <string name="settings_card_pin_cache_clear">Clear now</string>
@@ -1769,19 +1769,19 @@
     <string name="licenses_title">라이선스</string>
     <string name="licenses_subtitle">Third party software used by PGPony.</string>
     <!-- 3.1.0 Phase 8 (E4/E5) — email send + sign by default -->
-    <string name="result_send_email_button">Send as Email</string>
-    <string name="settings_sign_by_default_title">Sign by default</string>
+    <string name="result_send_email_button">전자 우편으로 보내기</string>
+    <string name="settings_sign_by_default_title">기본적으로 서명</string>
     <string name="settings_sign_by_default_subtitle">Start new messages with \"Also sign\" turned on, using your default signing key.</string>
     <string name="settings_section_email">전자 우편</string>
-    <string name="settings_email_format_label">Send format</string>
-    <string name="settings_email_format_inline">Inline</string>
-    <string name="settings_email_format_attachment">Attachment</string>
-    <string name="settings_email_format_both">Both</string>
+    <string name="settings_email_format_label">보내기 형식</string>
+    <string name="settings_email_format_inline">인라인</string>
+    <string name="settings_email_format_attachment">첨부</string>
+    <string name="settings_email_format_both">돌 다</string>
     <string name="settings_email_format_subtitle">Inline puts the encrypted block in the email body so PGP-aware clients decrypt it automatically; Attachment sends a .asc file.</string>
-    <string name="settings_section_sharing">Sharing</string>
-    <string name="settings_share_format_label">Default sharing method</string>
-    <string name="settings_share_format_inline">Inline text</string>
-    <string name="settings_share_format_file">.asc file</string>
+    <string name="settings_section_sharing">공유</string>
+    <string name="settings_share_format_label">기본 공유 방법</string>
+    <string name="settings_share_format_inline">인라인 텍스트</string>
+    <string name="settings_share_format_file">.asc 라일</string>
     <string name="settings_share_format_subtitle">How the Share button packages an encrypted or signed result.</string>
     <!-- 3.1.0 Phase 8 Fix1 — file import read error -->
     <string name="keyring_error_file_read">Couldn\'t read that file. Try saving it to local storage (Files app) and importing again.</string>
@@ -1839,8 +1839,8 @@
     <string name="keyservers_first_party_badge">FIRST-PARTY</string>
     <string name="keyservers_lookup">Use for lookup</string>
     <string name="keyservers_publish">Use for publishing</string>
-    <string name="keyservers_move_up">Move up</string>
-    <string name="keyservers_move_down">Move down</string>
+    <string name="keyservers_move_up">위로 이동</string>
+    <string name="keyservers_move_down">아래로 이동</string>
     <string name="keyservers_reset">Reset to defaults</string>
     <string name="publish_title">Publish key</string>
     <string name="publish_subtitle">Upload this public key so others can find it. Choose which servers to publish to.</string>
@@ -1855,10 +1855,10 @@
     <string name="publish_status_published">Published</string>
     <string name="publish_status_not_published">Not on this server yet</string>
     <!-- 4.0.0 Phase 5 — background keyserver refresh -->
-    <string name="settings_section_key_refresh">Key Refresh</string>
-    <string name="settings_key_refresh_title">Background refresh</string>
+    <string name="settings_section_key_refresh">키 새로 고침</string>
+    <string name="settings_key_refresh_title">백그라운드 새로 고침</string>
     <string name="settings_key_refresh_subtitle">Automatically re-check your keys on the key servers so you notice revocations and expirations</string>
-    <string name="settings_key_refresh_wifi_title">Wi-Fi only</string>
+    <string name="settings_key_refresh_wifi_title">Wi-Fi 전용</string>
     <string name="settings_key_refresh_wifi_subtitle">Refresh only on unmetered networks</string>
     <string name="settings_key_refresh_disclosure">When on, PGPony periodically sends your held keys\' fingerprints to your enabled key servers (including keys.pgpony.app) to fetch updates. Use the onion option under Proxy to keep this over Tor.</string>
     <string name="settings_key_refresh_foss_enable">F-Droid builds keep this off by default. Turn it on to let PGPony check for revocations automatically.</string>
@@ -1909,7 +1909,7 @@
     <string name="restore_done_title">복구 완료</string>
     <string name="restore_added">추가됨</string>
     <string name="restore_upgraded">키쌍으로 업그레이드되었습니다</string>
-    <string name="restore_updated">업데이트되었습니다</string>
+    <string name="restore_updated">최신화되었습니다</string>
     <string name="restore_unchanged">이미 최신입니다</string>
     <string name="restore_failed">복구할 수 없습니다</string>
     <string name="restore_settings_applied">Settings restored</string>
