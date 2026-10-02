@@ -340,7 +340,7 @@
     <!-- ── Recipients section ───────────────────────────────────────── -->
     <string name="encrypt_recipients_label">수신자</string>
     <string name="encrypt_recipients_choose">수신자를 선택하세요</string>
-    <string name="encrypt_recipients_selected_count">%1$d 명 선택됨</string>
+    <string name="encrypt_recipients_selected_count">%1$d\u00A0명 선택됨</string>
     <string name="encrypt_recipients_no_keys">사용 가능한 키가 없습니다. 먼저 키를 가져오거나 생성해 주세요.</string>
     <string name="encrypt_recipients_search_label">키 검색</string>
     <string name="encrypt_recipients_clear_search">검색 창 비우기</string>
@@ -509,7 +509,7 @@
          ════════════════════════════════════════════════════════════════ -->
     <string name="encdec_error_sign_no_input">서명할 메시지를 입력하세요</string>
     <string name="encdec_error_encrypt_no_input">암호화할 메시지를 입력하세요</string>
-    <string name="encdec_error_no_recipients">적어도 수신자를 한 명 이상 선택하세요</string>
+    <string name="encdec_error_no_recipients">적어도 수신자를 한\u00A0명 이상 선택하세요</string>
     <string name="encdec_error_password_required">비밀구절을 입력하세요</string>
     <string name="encdec_error_password_mismatch">비밀구절이 일치하지 않습니다</string>
     <string name="encdec_error_no_file_to_encrypt">먼저 암호화할 파일을 선택하세요</string>
@@ -1605,10 +1605,10 @@
     <string name="pass_entry_card_nfc_off">This entry needs a hardware key, but NFC is off or unavailable on this device. Enable NFC and try again.</string>
     <string name="pass_entry_card_failed">Hardware-key decryption failed.</string>
     <plurals name="pass_store_recipients">
-        <item quantity="one">수신자 %1$d 명</item>
-        <item quantity="other">수신자 %1$d 명</item>
+        <item quantity="one">수신자 %1$d\u00A0명</item>
+        <item quantity="other">수신자 %1$d\u00A0명</item>
     </plurals>
-    <string name="card_pin_change_title">Change User PIN</string>
+    <string name="card_pin_change_title">사용자 PIN 변경</string>
     <string name="card_pin_change_intro">Change the user PIN (PW1) on your hardware key. This is the PIN you enter to sign and decrypt. Not the admin PIN.</string>
     <string name="card_pin_change_current_label">현재 PIN</string>
     <string name="card_pin_change_new_label">새 PIN</string>
