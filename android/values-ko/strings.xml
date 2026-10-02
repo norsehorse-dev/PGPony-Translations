@@ -211,10 +211,10 @@
     <string name="settings_clipboard_autoclear_title">클립보드 자동 비우기</string>
     <string name="settings_clipboard_autoclear_subtitle">자동으로 복사된 내용을 지웁니다</string>
     <string name="settings_clipboard_clear_after_label">다음 시간이 지난 후 비우기</string>
-    <string name="settings_clipboard_interval_30s">30 초</string>
-    <string name="settings_clipboard_interval_1m">1 분</string>
-    <string name="settings_clipboard_interval_2m">2 분</string>
-    <string name="settings_clipboard_interval_5m">5 분</string>
+    <string name="settings_clipboard_interval_30s">30\u00A0초</string>
+    <string name="settings_clipboard_interval_1m">1\u00A0분</string>
+    <string name="settings_clipboard_interval_2m">2\u00A0분</string>
+    <string name="settings_clipboard_interval_5m">5\u00A0분</string>
 
     <!-- ── PGP Output section: customizable armor comment ───────────── -->
     <string name="settings_armor_comment_toggle_title">Include comment in PGP output</string>
@@ -611,9 +611,9 @@
     <string name="import_method_key_server">키 서버</string>
 
     <!-- ── ExpirationOption enum (KeyringViewModel) ─────────────────── -->
-    <string name="expiration_one_year">1 년</string>
-    <string name="expiration_two_years">2 년</string>
-    <string name="expiration_five_years">5 년</string>
+    <string name="expiration_one_year">1\u00A0년</string>
+    <string name="expiration_two_years">2\u00A0년</string>
+    <string name="expiration_five_years">5\u00A0년</string>
     <string name="expiration_never">없음</string>
 
     <!-- ════════════════════════════════════════════════════════════════
@@ -634,7 +634,7 @@
     <string name="import_file_browse_button">Browse</string>
 
     <!-- ── QR tab ───────────────────────────────────────────────────── -->
-    <string name="import_qr_title">Scan QR Code</string>
+    <string name="import_qr_title">QR 코드 스캔</string>
     <string name="import_qr_subtitle">Point camera at a PGP key QR code generated from the Exchange tab on another phone.</string>
     <string name="import_qr_open_camera_button">카메라 열기</string>
 
@@ -652,9 +652,9 @@
     <string name="import_preview_detail_user_empty">(없음)</string>
     <string name="import_preview_detail_fingerprint_label">지문</string>
     <string name="import_preview_detail_algorithm_label">알고리즘</string>
-    <string name="import_preview_source_file_format">From file: %1$s</string>
-    <string name="import_preview_source_wkd_advanced">Found via WKD (advanced)</string>
-    <string name="import_preview_source_wkd_direct">Found via WKD (direct)</string>
+    <string name="import_preview_source_file_format">파일에서: %1$s</string>
+    <string name="import_preview_source_wkd_advanced">WKD를 통해 찾음 (고급)</string>
+    <string name="import_preview_source_wkd_direct">WKD를 통해 찾음 (직접)</string>
     <string name="import_preview_source_hagrid">Found via keys.openpgp.org</string>
     <string name="import_preview_source_keyserver">Found via your key servers</string>
 
@@ -667,7 +667,7 @@
     <string name="import_duplicate_will_merge">This key is already in your keyring. Importing will merge any newer key data into your existing entry.</string>
     <string name="import_duplicate_alert_title">Already in Keyring</string>
     <string name="import_duplicate_alert_body_format">The key for %1$s is already in your keyring, and the imported copy contains nothing new.</string>
-    <string name="import_duplicate_view_key">View Key</string>
+    <string name="import_duplicate_view_key">키 보기</string>
     <string name="import_result_merged">This key was already in your keyring. It has been updated with the newer key material.</string>
     <string name="import_result_already_in_keyring">This key is already in your keyring.</string>
 
@@ -1704,7 +1704,7 @@
     <string name="structured_result_attachments_format">첨부 (%1$d)</string>
     <string name="structured_result_share_all">모두 공유</string>
     <!-- 3.1.0 Phase 5 (J3/J4) — Bundle compose + outputs -->
-    <string name="encrypt_mode_bundle">번들</string>
+    <string name="encrypt_mode_bundle">묶음</string>
     <string name="encrypt_bundle_body_label">메시지</string>
     <!-- 4.0.0 Phase 9 (F6) — Bundle body character count -->
     <string name="encrypt_bundle_char_count_format">%1$d 자</string>
@@ -1721,7 +1721,7 @@
          unsigned bundle. Card keys no longer reach it, they route to the
          PIN dialog instead. -->
     <string name="encdec_error_bundle_signing_key">This bundle could not be signed: the selected signing key could not be unlocked. Choose a different signing key, or turn signing off.</string>
-    <string name="bundle_result_title">번들 암호화됨</string>
+    <string name="bundle_result_title">묶음 암호화됨</string>
     <string name="bundle_result_subtitle_format">%1$d attachments · %2$d recipients</string>
     <string name="bundle_result_section_email">전자 우편으로 보내기</string>
     <string name="bundle_result_section_file">파일로 보내기</string>
@@ -1739,10 +1739,10 @@
     <string name="settings_card_pin_cache_title">카드 PIN 기억</string>
     <string name="settings_card_pin_cache_subtitle">Keep the user PIN in memory for a chosen duration. Never stored on disk; cleared by a wrong PIN or closing the app.</string>
     <string name="settings_card_pin_cache_duration_label">다음동안 기억</string>
-    <string name="settings_card_pin_cache_1min">1 분</string>
-    <string name="settings_card_pin_cache_5min">5 분</string>
-    <string name="settings_card_pin_cache_15min">15 분</string>
-    <string name="settings_card_pin_cache_1hr">1 시간</string>
+    <string name="settings_card_pin_cache_1min">1\u00A0분</string>
+    <string name="settings_card_pin_cache_5min">5\u00A0분</string>
+    <string name="settings_card_pin_cache_15min">15\u00A0분</string>
+    <string name="settings_card_pin_cache_1hr">1\u00A0시간</string>
     <string name="settings_card_pin_cache_countdown_format">PIN remembered. Clears in %1$s</string>
     <string name="settings_card_pin_cache_none_held">No PIN is currently remembered.</string>
     <string name="settings_card_pin_cache_clear">Clear now</string>
