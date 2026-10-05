@@ -176,7 +176,7 @@
     <string name="settings_updates_check_now">지금 확인하기</string>
     <string name="settings_updates_found">판올림 사용 가능: %1$s</string>
     <string name="settings_updates_uptodate">최신 판입니다.</string>
-    <string name="settings_updates_failed">판올림을 확인할 수 없습니다..</string>
+    <string name="settings_updates_failed">판올림을 확인할 수 없습니다.</string>
     <string name="settings_more_ponyfamily_subtitle">모든 Pony 앱은 pony.norsehor.se에서</string>
     <string name="settings_more_quorumpony_title" translatable="false">QuorumPony</string>
     <string name="settings_more_quorumpony_subtitle">비밀을 카드로 나눕니다. 몇 장만 모여도 다시 조립할 수 있습니다.</string>
@@ -220,7 +220,7 @@
     <string name="settings_armor_comment_toggle_title">PGP 출력에 주석 포함</string>
     <string name="settings_armor_comment_toggle_subtitle">암호화·서명된 메시지에 주석 헤더를 추가합니다</string>
     <string name="settings_armor_comment_field_label">주석 텍스트</string>
-    <string name="settings_armor_comment_preview_format">주석: %1$s</string>
+    <string name="settings_armor_comment_preview_format">Comment: %1$s</string>
     <string name="settings_armor_comment_preview_none">주석 헤더는 작성되지 않습니다</string>
 
     <!-- ── Appearance section (Phase A12) ───────────────────────────── -->
