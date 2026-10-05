@@ -31,9 +31,17 @@ the source of truth for all of them.
 | Spanish (es) | yes | yes | yes |
 | French (fr) | yes | yes | yes |
 | Japanese (ja) | yes | yes | yes |
+| Korean (ko) | not yet | in progress | yes |
 | Portuguese, Brazil (pt-BR) | yes | yes | yes |
-| Russian (ru) | yes | yes | not yet |
-| Chinese, Simplified (zh-Hans) | yes | not yet | not yet |
+| Russian (ru) | yes | yes | yes |
+| Turkish (tr) | not yet | yes | yes |
+| Ukrainian (uk) | not yet | yes | yes |
+| Chinese, Simplified (zh-Hans) | yes | yes | yes |
+
+On Android and Desktop, Simplified Chinese lives in `values-b+zh+Hans`, the folder name
+Android uses for a script subtag. Turkish, Ukrainian and Simplified Chinese started as
+machine translations, so corrections from native speakers are especially welcome there.
+Run `python3 tools/status.py` for the current count of untranslated strings per language.
 
 ## New languages welcome
 
