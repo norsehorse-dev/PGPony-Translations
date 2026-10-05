@@ -118,7 +118,7 @@
     <!-- ════════════════════════════════════════════════════════════════
          Lock screen (Phase A11)
          ════════════════════════════════════════════════════════════════ -->
-    <string name="lock_screen_tagline">당신의 키는 마구간에 안전히 있습니다</string>
+    <string name="lock_screen_tagline">당신의 키는 안정 상태입니다</string>
     <string name="lock_screen_unlock_button">잠금 해제</string>
     <string name="lock_prompt_title">PGPony 잠금 해제</string>
     <string name="lock_prompt_subtitle">키에 접근하기 위하여 인증하세요</string>
@@ -165,19 +165,19 @@
          subtitles are the taglines from pony.norsehor.se and translate normally. -->
     <string name="settings_more_ponyfamily_title">모든 Pony 앱</string>
     <string name="settings_desktop_title">데스크탑용 PGPony</string>
-    <string name="settings_desktop_subtitle">macOS, Linux와 Windows를 위한 OpenPGP</string>
+    <string name="settings_desktop_subtitle">macOS, Linux와 Windows용 OpenPGP</string>
     <string name="update_channel_name">판올림</string>
     <string name="update_channel_description">설치할 수 있는 최신 빌드가 있으면 알려줍니다.</string>
     <string name="update_available_title">판올림 사용 가능</string>
     <string name="update_available_text">PGPony %1$s이 사용 가능합니다. 배포를 열려면 누르세요.</string>
     <string name="settings_section_updates">판올림</string>
     <string name="settings_updates_toggle_title">판올림 확인</string>
-    <string name="settings_updates_toggle_subtitle">GitHub에서 새 릴리스를 확인하고 알려줍니다. F-Droid 판올림 경로를 우회하며, 어떤 것도 내려받거나 설치하지 않습니다.</string>
+    <string name="settings_updates_toggle_subtitle">GitHub에서 새 배포를 확인하고 알려줍니다. F-Droid 판올림 경로를 우회하며, 어떤 것도 내려받거나 설치하지 않습니다.</string>
     <string name="settings_updates_check_now">지금 확인하기</string>
     <string name="settings_updates_found">판올림 사용 가능: %1$s</string>
     <string name="settings_updates_uptodate">최신 판입니다.</string>
     <string name="settings_updates_failed">판올림을 확인할 수 없습니다..</string>
-    <string name="settings_more_ponyfamily_subtitle">pony.norsehor.se의 모든 Pony 앱</string>
+    <string name="settings_more_ponyfamily_subtitle">모든 Pony 앱은 pony.norsehor.se에서</string>
     <string name="settings_more_quorumpony_title" translatable="false">QuorumPony</string>
     <string name="settings_more_quorumpony_subtitle">비밀을 카드로 나눕니다. 몇 장만 모여도 다시 조립할 수 있습니다.</string>
     <string name="settings_more_carrierpony_title" translatable="false">CarrierPony</string>
@@ -193,9 +193,9 @@
     <string name="settings_more_scrubpony_title" translatable="false">ScrubPony</string>
     <string name="settings_more_scrubpony_subtitle">이미지에서 신원 메타데이터를 제거합니다. 픽셀은 그대로입니다.</string>
     <string name="settings_more_source_title">오픈 소스 엔진</string>
-    <string name="settings_more_source_subtitle">GitHub의 PGPonyCore, 감사받은 암호 핵심</string>
+    <string name="settings_more_source_subtitle">GitHub의 PGPonyCore, 감사받은 암호 코어</string>
     <string name="settings_more_appsource_title">소스 코드</string>
-    <string name="settings_more_appsource_subtitle">GitHub의 PGPony 전체 앱</string>
+    <string name="settings_more_appsource_subtitle">GitHub의 모든 PGPony 앱</string>
     <string name="settings_section_about">소개</string>
 
     <!-- ── Pro section ──────────────────────────────────────────────── -->
@@ -218,9 +218,9 @@
 
     <!-- ── PGP Output section: customizable armor comment ───────────── -->
     <string name="settings_armor_comment_toggle_title">PGP 출력에 주석 포함</string>
-    <string name="settings_armor_comment_toggle_subtitle">암호화·서명된 메시지에 Comment 헤더를 추가합니다</string>
+    <string name="settings_armor_comment_toggle_subtitle">암호화·서명된 메시지에 주석 헤더를 추가합니다</string>
     <string name="settings_armor_comment_field_label">주석 텍스트</string>
-    <string name="settings_armor_comment_preview_format">Comment: %1$s</string>
+    <string name="settings_armor_comment_preview_format">주석: %1$s</string>
     <string name="settings_armor_comment_preview_none">주석 헤더는 작성되지 않습니다</string>
 
     <!-- ── Appearance section (Phase A12) ───────────────────────────── -->
@@ -287,7 +287,7 @@
     <string name="settings_about_reset_tips_title">팁 초기화</string>
     <string name="settings_about_reset_tips_subtitle">각 탭에서 상황에 맞는 힌트를 다시 보여줍니다</string>
     <string name="settings_about_reset_tips_success">각 화면을 방문하면 팁이 다시 나타납니다</string>
-    <string name="settings_about_footer">Android용 PGPony\nNorseHorse 제작\npgpony.app</string>
+    <string name="settings_about_footer">Android용 PGPony\nNorseHorse 개발\npgpony.app</string>
 
     <!-- ════════════════════════════════════════════════════════════════
          MainActivity — small UI strings (tab labels, etc.)
@@ -317,7 +317,7 @@
 
     <!-- ── Phase A1: symmetric / passphrase-only (Password) mode ──────── -->
     <string name="encrypt_password_section_label">비밀번호로 암호화</string>
-    <string name="encrypt_password_hint">키가 필요하지 않습니다. 아무나 이 비밀구절로 메시지를 복호화할 수 있습니다. Share it over a separate channel. Works with gpg -c on the other end.</string>
+    <string name="encrypt_password_hint">키가 필요하지 않습니다. 아무나 이 비밀구절로 메시지를 복호화할 수 있습니다. 별도 통로를 통해 전달하세요. 다른 쪽에서 gpg -c로 실행할 수 있습니다.</string>
     <string name="encrypt_password_passphrase_label">비밀구절</string>
     <string name="encrypt_password_confirm_label">비밀구절 확인</string>
     <string name="encrypt_password_show">비밀구절 보이기</string>
@@ -471,7 +471,7 @@
     <!-- ── Decrypted text clipboard label (passed to ClipboardService) ─ -->
     <string name="decrypt_clipboard_label">복호화된 메시지</string>
     <!-- 4.1.0, issue #10: long output is held back from first paint. -->
-    <string name="output_truncated_notice">미리보기일 뿐: 전체 %2$d\u00A0자 중 처음 %1$d\u00A0자입니다. 복사는 전체를 가져가며, 일부만 선택하려면 전체 텍스트를 여세요.</string>
+    <string name="output_truncated_notice">미리보기 전용: 전체 %2$d\u00A0자 중 처음 %1$d\u00A0자입니다. 복사는 전체를 가져가며, 일부만 선택하려면 전체 텍스트를 여세요.</string>
     <string name="output_open_full">전체 텍스트 열기</string>
 
     <!-- ════════════════════════════════════════════════════════════════
@@ -530,7 +530,7 @@
     <string name="encdec_error_signing_failed_format">서명 실패: %1$s</string>
     <string name="encdec_error_encryption_failed_format">암호화 실패: %1$s</string>
     <string name="encdec_error_decryption_failed_format">복호화 실패: %1$s</string>
-    <string name="encdec_error_detached_signature">이것은 분리된 서명 단독으로 보입니다. 검증하려면 서명된 내용을 함께 붙여넣으세요.</string>
+    <string name="encdec_error_detached_signature">이것은 분리된 서명으로 보입니다. 검증하려면 서명된 내용을 함께 붙여넣으세요.</string>
     <string name="encdec_error_not_pgp_message">PGP 메시지로 인식할 수 없습니다. BEGIN과 END 표시 줄을 포함해 전체 블록을 붙여넣었는지 확인하세요.</string>
     <string name="encdec_error_signer_not_in_keyring">서명을 검증할 수 없습니다. 서명자 키가 키링에 없을 수 있습니다</string>
     <string name="encdec_error_keyserver_network">keys.openpgp.org에 접속하는 중 네트워크 오류</string>
@@ -700,7 +700,7 @@
     <string name="key_detail_detail_format_v6">OpenPGP v6 · RFC 9580</string>
     <string name="key_detail_detail_format_v4">OpenPGP v4 · RFC 4880</string>
     <string name="key_detail_detail_created">생성됨</string>
-    <string name="key_detail_detail_drive_backup">Drive 백업</string>
+    <string name="key_detail_detail_drive_backup">드라이브 백업</string>
     <string name="key_detail_detail_drive_backup_enabled">활성화됨</string>
     <string name="key_detail_detail_key_server">키 서버</string>
     <string name="key_detail_detail_key_server_published">공개됨</string>
@@ -739,7 +739,7 @@
     <!-- ── 4.0.0 Phase 2: keyserver refresh + User IDs (iOS v7.1.1 F4/F5) ── -->
     <string name="key_detail_action_refresh_key_server">키 서버에서 새로 고침</string>
     <string name="kd_vm_refresh_up_to_date">이 키는 키 서버와 최신 상태입니다.</string>
-    <string name="kd_vm_refresh_merged">새로 고침했습니다. 이 키가 키 서버의 더 새로운 자료로 갱신되었습니다.</string>
+    <string name="kd_vm_refresh_merged">새로 고쳤습니다. 이 키가 키 서버의 더 새로운 자료로 갱신되었습니다.</string>
     <string name="kd_vm_refresh_revoked">키 서버의 이 키 복사본이 철회되었습니다. 철회가 적용되었습니다.</string>
     <string name="kd_vm_refresh_mismatch">키 서버가 이 키의 지문과 일치하지 않는 키를 돌려주었습니다. 아무것도 바뀌지 않았습니다.</string>
     <string name="kd_vm_refresh_failed_format">키 서버 새로 고침 실패: %1$s</string>
@@ -754,9 +754,9 @@
     <string name="key_detail_add_userid_sheet_subtitle">%1$s의 새 신원</string>
     <string name="key_detail_add_userid_name_label">이름</string>
     <string name="key_detail_add_userid_email_label">전자 우편</string>
-    <string name="key_detail_add_userid_make_primary_label">이것을 기본 User ID로 만들기</string>
+    <string name="key_detail_add_userid_make_primary_label">이것을 기본 사용자 ID로 만들기</string>
     <string name="key_detail_add_userid_passphrase_label">비밀구절</string>
-    <string name="key_detail_add_userid_apply">User ID 추가</string>
+    <string name="key_detail_add_userid_apply">사용자 ID 추가</string>
     <string name="key_detail_notations_title">노테이션</string>
     <string name="key_detail_notations_empty">이 키에는 노테이션이 없습니다.</string>
     <string name="key_detail_notations_edit_action">노테이션 편집</string>
@@ -770,9 +770,9 @@
     <string name="key_detail_notations_name_hint">각 노테이션 이름은 @를 포함하고 값을 가져야 합니다. 예: use@example.com.</string>
     <string name="key_detail_notations_apply">노테이션 저장</string>
     <string name="key_detail_notations_failed">노테이션을 갱신할 수 없습니다</string>
-    <string name="key_detail_add_userid_failed">User ID를 추가할 수 없습니다. 다시 시도해 주세요.</string>
-    <string name="key_detail_userid_action_sheet_title_revoke">User ID 철회</string>
-    <string name="key_detail_userid_action_sheet_title_make_primary">기본 User ID로 만들기</string>
+    <string name="key_detail_add_userid_failed">사용자 ID를 추가할 수 없습니다. 다시 시도해 주세요.</string>
+    <string name="key_detail_userid_action_sheet_title_revoke">사용자 ID 철회</string>
+    <string name="key_detail_userid_action_sheet_title_make_primary">기본 사용자 ID로 만들기</string>
     <string name="key_detail_userid_action_sheet_subtitle_revoke">%1$s이(가) 철회됨으로 표시됩니다. 되돌릴 수 없습니다.</string>
     <string name="key_detail_userid_action_sheet_subtitle_make_primary">%1$s이(가) 이 키의 기본 신원이 됩니다.</string>
     <string name="key_detail_userid_action_passphrase_label">비밀구절</string>
@@ -861,7 +861,7 @@
     <string name="key_detail_fallbacks_move_down">아래로 이동</string>
     <string name="key_detail_section_signing_defaults">서명 기본값</string>
     <string name="key_detail_signing_defaults_explainer">이 키가 서명할 때는 각 상황에서 이 키들 대신 사용합니다. \"이 키\"는 일반 동작을 유지합니다.</string>
-    <string name="key_detail_signing_default_pqc">포스트 양자 수신자에게 암호화할 때</string>
+    <string name="key_detail_signing_default_pqc">양자 내성 수신자에게 암호화할 때</string>
     <string name="key_detail_signing_default_classical">고전 수신자에게 암호화할 때</string>
     <string name="key_detail_signing_default_sign_only">암호화 없이 서명할 때</string>
     <string name="key_detail_signing_default_self">이 키</string>
@@ -898,7 +898,7 @@
          ════════════════════════════════════════════════════════════════ -->
     <string name="kd_vm_error_export_for_qr">QR 인코딩을 위해 공개 키를 내보낼 수 없습니다</string>
     <string name="kd_vm_error_qr_failed_format">QR 생성 실패: %1$s</string>
-    <string name="qr_too_large">이 키는 QR 코드에 너무 큽니다. 대신 공유나 복사를 사용하세요.</string>
+    <string name="qr_too_large">이 키는 QR 코드에 담기 너무 큽니다. 대신 공유나 복사를 사용하세요.</string>
     <string name="qr_part_of_format">전체 %2$d\u00A0부 중 %1$d\u00A0부</string>
     <string name="qr_multipart_hint">모든 부분을 PGPony로 스캔하세요. 다른 QR 리더는 나누어진 키를 다시 합칠 수 없습니다.</string>
     <string name="qr_part_previous">이전 부분</string>
@@ -958,7 +958,7 @@
     <string name="revocation_reason_compromised_description">개인 키가 노출되었을 수 있습니다. 이 날짜 이후 서명된 것은 절대 신뢰하지 마세요</string>
     <string name="revocation_reason_retired_name">키 은퇴</string>
     <string name="revocation_reason_retired_description">이 키는 더 이상 사용되지 않지만 개인 키는 노출되지 않았습니다</string>
-    <string name="revocation_reason_user_id_invalid_name">User ID 더 이상 유효하지 않음</string>
+    <string name="revocation_reason_user_id_invalid_name">사용자 ID가 더 이상 유효하지 않음</string>
     <string name="revocation_reason_user_id_invalid_description">키에 연결된 전자 우편/이름이 바뀌었습니다</string>
 
     <!-- ── RevokeKeySheet ───────────────────────────────────────────── -->
@@ -1016,7 +1016,7 @@
     <string name="faq_a_where_keys_stored">기기에만 저장됩니다. PGPony는 개인 키를 암호화된 Room 데이터베이스에 저장하며, Android Keystore에 있는 마스터 키로 보호됩니다.\n\n현대 기기에서 Keystore는 하드웨어 보안(Pixel의 Titan M 칩, 삼성 등 다른 제조사의 동등물)으로 뒷받침되어, 개인 키를 추출하려면 칩 자체에 대한 물리적 공격이 필요합니다.\n\n키는 교환 탭에서 명시적으로 내보내지 않는 한 기기를 떠나지 않습니다.</string>
 
     <string name="faq_q_lost_passphrase">비밀구절을 잊어버리면 어떻게 되나요?</string>
-    <string name="faq_a_lost_passphrase">복구는 없습니다. PGPony는 비밀구절을 저장하지 않고 \"비밀번호 찾기\" 흐름도 없습니다. 강한 암호화의 핵심이 바로 그것입니다.\n\n개인 키의 비밀구절을 잊으면 그 키는 영구히 접근할 수 없고, 그 키로 암호화된 메시지는 다시는 복호화할 수 없습니다.\n\n비밀구절을 안전한 곳에 적어 두세요. 비밀번호 관리자가 이상적입니다. 잠긴 서랍 속 종이 쪽지도 괜찮습니다.</string>
+    <string name="faq_a_lost_passphrase">복구는 없습니다. PGPony는 비밀구절을 저장하지 않고 \"비밀번호 찾기\" 절차도 없습니다. 강한 암호화의 핵심이 바로 그것입니다.\n\n개인 키의 비밀구절을 잊으면 그 키는 영구히 접근할 수 없고, 그 키로 암호화된 메시지는 다시는 복호화할 수 없습니다.\n\n비밀구절을 안전한 곳에 적어 두세요. 비밀번호 관리자가 이상적입니다. 잠긴 서랍 속 종이 쪽지도 괜찮습니다.</string>
 
     <string name="faq_q_server_data">PGPony는 서버로 데이터를 보내나요?</string>
     <string name="faq_a_server_data">아니요. 핵심 암호화와 키 관리는 전적으로 기기에서 이루어집니다. PGPony에는 계정 시스템, 분석, 텔레레메트리, 광고 SDK가 없습니다.\n\n앱은 키를 올리거나 찾아볼 때 선택적으로 OpenPGP 키 서버에 연결할 수 있도록 INTERNET 권한을 선언합니다. 하지만 이는 옵트인이며 앱 사용에 필수가 아닙니다.\n\n설정 &gt; 개인 정보 &gt; 데이터 사용량에서 앱의 네트워크 활동을 확인해 이를 검증할 수 있습니다.</string>
@@ -1054,7 +1054,7 @@
     <string name="security_info_block_at_rest_body">개인 키는 androidx.security.crypto로 저장되며, Android Keystore가 생성하고 보호하는 마스터 키로 지켜집니다. 현대 기기에서 Keystore는 하드웨어 보안(Titan M, Secure Enclave 또는 동등물)으로 뒷받침됩니다.</string>
 
     <string name="security_info_block_biometric_title">선택적 생체 인증 잠금</string>
-    <string name="security_info_block_biometric_body">설정 &gt; 보안에서 생체 인증 잠금을 켜면 PGPony를 열 때마다 지문이나 얼굴 잠금 해제를 요구합니다. 모든 복호화 작업마다 재인증을 요구하게 할 수도 있습니다.</string>
+    <string name="security_info_block_biometric_body">설정 및 보안에서 생체 인증 잠금을 켜면 PGPony를 열 때마다 지문이나 얼굴 잠금 해제를 요구합니다. 모든 복호화 작업마다 재인증을 요구하게 할 수도 있습니다.</string>
 
     <string name="security_info_block_clipboard_title">클립보드 자동 비우기</string>
     <string name="security_info_block_clipboard_body">클립보드에 복사된 민감한 내용은 설정 가능한 시간 제한(기본 60초) 후 자동으로 지워져, 다른 앱이 읽을 수 있는 곳에 남지 않습니다.</string>
@@ -1066,7 +1066,7 @@
     <string name="security_info_not_doing_bullet_4">Bouncy Castle 외 제3자 암호 라이브러리를 쓰지 않음</string>
     <string name="security_info_not_doing_bullet_5">비밀구절을 저장하지 않음. 메모리에서만 잠깐 사용됩니다</string>
 
-    <string name="security_info_footer">전체 개인 정보 정책과 기술 세부사항: pgpony.norsehor.se/privacy</string>
+    <string name="security_info_footer">전체 개인 정보 정책과 기술 세부 사항: pgpony.norsehor.se/privacy</string>
 
     <!-- ════════════════════════════════════════════════════════════════
          Onboarding — slide carousel (OnboardingSlide.kt)
@@ -1078,7 +1078,7 @@
     <string name="onboarding_slide_key_body">PGP는 두 개의 키로 작동합니다: 자유롭게 공유하는 공개 키와 비밀로 유지하는 개인 키입니다.\n\n공개 키를 가진 누구나 당신에게 암호화된 메시지를 보낼 수 있지만, 개인 키만 복호화할 수 있습니다.</string>
 
     <string name="onboarding_slide_encrypt_title">무엇이든 암호화</string>
-    <string name="onboarding_slide_encrypt_body">누군가의 공개 키를 연락처에 저장했다면, 암호화 탭에서 그 사람만을 위한 메시지를 섞어 놓으세요.\n\n결과는 어느 경로로든 보내도 안전합니다. 전자 우편, SMS, 공개 게시물조차도.</string>
+    <string name="onboarding_slide_encrypt_body">누군가의 공개 키를 연락처에 저장했다면, 암호화 탭에서 그 사람만을 위한 메시지를 섞어 놓으세요.\n\n결과는 어느 경로로든 보내도 안전합니다. 전자 우편, SMS, 공개 게시물조차도요.</string>
 
     <string name="onboarding_slide_exchange_title">키를 즉시 교환</string>
     <string name="onboarding_slide_exchange_body">교환 탭은 공개 키를 QR 코드로 바꿔줍니다. PGPony를 쓰는 친구에게 보여주면 바로 스캔할 수 있습니다. 타이핑도 복사-붙여넣기도 없습니다.\n\n키를 다른 앱으로 파일로 공유할 수도 있습니다.</string>
@@ -1095,7 +1095,7 @@
     <string name="onboarding_page_biometric_toggle_title">생체 인증 잠금 켜기</string>
     <string name="onboarding_page_biometric_toggle_subtitle">PGPony를 열려면 지문이나 얼굴이 필요합니다</string>
     <string name="onboarding_slide_updates_title">최신 상태로 있기</string>
-    <string name="onboarding_slide_updates_body">앱 스토어 밖에서 PGPony를 설치했기 때문에 스스로 판올림하지 않습니다. PGPony는 GitHub에서 새 릴리스를 확인하고 알려줄 수 있습니다. 스스로 내려받거나 설치하는 일은 결코 없습니다.</string>
+    <string name="onboarding_slide_updates_body">앱 스토어 밖에서 PGPony를 설치했기 때문에 스스로 판올림하지 않습니다. PGPony는 GitHub에서 새 배포를 확인하고 알려줄 수 있습니다. 스스로 내려받거나 설치하는 일은 결코 없습니다.</string>
     <string name="onboarding_page_updates_toggle_title">판올림 확인</string>
     <string name="onboarding_page_updates_toggle_subtitle">새 판이 사용 가능하면 알립니다.</string>
 
@@ -1261,13 +1261,13 @@
     <!-- ════════════════════════════════════════════════════════════════
          PromoCodeService — billing
          ════════════════════════════════════════════════════════════════ -->
-    <string name="promo_error_invalid_code">잘못된 프로모 코드</string>
+    <string name="promo_error_invalid_code">잘못된 프로모션 코드</string>
     <string name="promo_error_already_redeemed">이 코드는 이미 사용되었습니다</string>
     <string name="promo_error_server_format">서버 오류: %1$s</string>
     <string name="promo_error_network_format">네트워크 오류: %1$s</string>
     <string name="promo_error_unknown">알 수 없는 오류</string>
-    <string name="promo_status_unlocked_default">PGPony Pro 잠금 해제!</string>
-    <string name="promo_status_unlocked_offline">PGPony Pro 잠금 해제! (오프라인 모드, 온라인이 되면 동기화됩니다)</string>
+    <string name="promo_status_unlocked_default">PGPony Pro 잠금 해제됨!</string>
+    <string name="promo_status_unlocked_offline">PGPony Pro 잠금 해제됨! (오프라인 모드, 온라인이 되면 동기화됩니다)</string>
 
     <!-- ════════════════════════════════════════════════════════════════
          KeyExpirationReceiver — system notification text
@@ -1371,7 +1371,7 @@
     <string name="migration_overlay_starting">시작 중…</string>
     <string name="migration_overlay_progress_format">%2$d\u00A0개 중 %1$d\u00A0개 키 업데이트 중</string>
     <string name="migration_overlay_done">완료.</string>
-    <string name="migration_overlay_error">업데이트를 마칠 수 없습니다. 앱은 그래도 계속됩니다. 키를 가져오거나 새로 생성할 때까지 일부 보조 키 세부정보가 없을 수 있습니다.</string>
+    <string name="migration_overlay_error">업데이트를 마칠 수 없습니다. 앱은 그래도 계속됩니다. 키를 가져오거나 새로 생성할 때까지 일부 보조 키 세부 정보가 없을 수 있습니다.</string>
 
     <!-- ════════════════════════════════════════════════════════════════
          KeyShareIntents — Android share-sheet chooser titles + clip labels
@@ -1403,7 +1403,7 @@
     <string name="share_target_action_decrypt">복호화 / 검증</string>
     <string name="share_target_action_decrypt_subtitle">내 키 중 하나로 이 PGP 메시지를 읽습니다</string>
     <string name="share_target_open_full_app">PGPony에서 열기</string>
-    <string name="share_target_open_full_app_subtitle_import">PGP 키처럼 보입니다. 키링 탭에서 가져오세요</string>
+    <string name="share_target_open_full_app_subtitle_import">PGP 키로 보입니다. 키링 탭에서 가져오세요</string>
     <string name="share_target_open_full_app_subtitle_setup">빠른 동작을 쓰려면 본 앱에서 첫 키를 설정하세요</string>
 
     <!-- Input preview card -->
@@ -1527,7 +1527,7 @@
     <string name="card_mgmt_error_admin_short">관리자 PIN은 8자리 이상이어야 합니다.</string>
     <string name="card_mgmt_error_user_short">사용자 PIN은 6자리 이상이어야 합니다.</string>
     <string name="card_mgmt_submit_then_tap">계속한 뒤 카드를 탭하세요</string>
-    <string name="card_mgmt_reset_warning">카드의 모든 키와 데이터를 영구히 지우고 기본 PIN을 복원합니다. 되돌릴 수 없습니다. 지울 생각이 있는 카드에서만 하세요.</string>
+    <string name="card_mgmt_reset_warning">카드의 모든 키와 데이터를 영구히 지우고 기본 PIN을 복원합니다. 되돌릴 수 없습니다. 지우고 싶은 카드에서만 실행하세요.</string>
     <string name="card_mgmt_reset_confirm1">이 카드 공장 초기화</string>
     <string name="card_mgmt_reset_confirm2_prompt">정말 확실하신가요? 카드가 완전히 지워집니다.</string>
     <string name="card_mgmt_reset_confirm2">네, 카드를 지웁니다</string>
@@ -1763,7 +1763,7 @@
     <string name="settings_argon2_title">더 강한 비밀구절 보호 (Argon2)</string>
     <string name="settings_argon2_subtitle">비밀번호로 암호화된 파일과 메시지에 Argon2id를 씁니다. 무차별 대입에 더 강하지만, 수신자가 GnuPG 2.4 이상이어야 열 수 있습니다. 가장 넓은 호환성을 위해 기본적으로 꺼져 있습니다.</string>
     <string name="settings_armor_comment_pubkey_title">내보내는 공개 키에 주석 포함</string>
-    <string name="settings_armor_comment_pubkey_subtitle">공개 키를 복사·공유·저장할 때 Comment 헤더를 추가합니다. 키 서버 올리기와 QR 코드에는 주석이 없습니다.</string>
+    <string name="settings_armor_comment_pubkey_subtitle">공개 키를 복사·공유·저장할 때 주석 헤더를 추가합니다. 키 서버 올리기와 QR 코드에는 주석이 없습니다.</string>
     <string name="settings_about_licenses_title">라이선스</string>
     <string name="settings_about_licenses_subtitle">오픈 소스 고지</string>
     <string name="licenses_title">라이선스</string>
@@ -1868,17 +1868,17 @@
     <string name="key_refresh_notif_expired_body">%1$s의 키가 키 서버 기준으로 만료되었습니다.</string>
     <!-- 4.0.0 Phase 6 — SOCKS/Tor proxy -->
     <string name="settings_section_proxy">프락시 (Tor)</string>
-    <string name="settings_proxy_title">프록시로 트래픽 우회</string>
-    <string name="settings_proxy_subtitle">모든 키 서버와 WKD 트래픽을 Tor나 SOCKS5 프록시로 보냅니다</string>
+    <string name="settings_proxy_title">프락시로 트래픽 우회</string>
+    <string name="settings_proxy_subtitle">모든 키 서버와 WKD 트래픽을 Tor나 SOCKS5 프락시로 보냅니다</string>
     <string name="settings_proxy_mode_off">꺼짐</string>
     <string name="settings_proxy_mode_orbot">Orbot (Tor)</string>
     <string name="settings_proxy_mode_custom">사용자 지정</string>
-    <string name="settings_proxy_orbot_missing">Orbot이 설치되지 않았습니다. Install it from F-Droid or Google Play to route through Tor.</string>
+    <string name="settings_proxy_orbot_missing">Orbot이 설치되지 않았습니다. Tor를 통해 라우팅하려면 F-Droid 또는 Google Play에서 설치하세요.</string>
     <string name="settings_proxy_custom_host">SOCKS5 호스트</string>
     <string name="settings_proxy_custom_port">포트</string>
     <string name="settings_proxy_onion_title">PGPony onion 미러 사용하기</string>
     <string name="settings_proxy_onion_subtitle">keys.pgpony.app를 .onion으로 접속해 키 서버 트래픽이 Tor를 벗어나지 않게 합니다</string>
-    <string name="settings_proxy_failclosed_note">프록시에 닿을 수 없으면 직접 연결로 되돌아가지 않고 요청이 실패합니다.</string>
+    <string name="settings_proxy_failclosed_note">프락시에 닿을 수 없으면 직접 연결로 되돌아가지 않고 요청이 실패합니다.</string>
 
     <!-- 4.0.0 Phase 3 — encrypted keyring backup / restore -->
     <string name="settings_section_backup">백업</string>
@@ -1903,7 +1903,7 @@
     <string name="restore_code_heading">복구 코드를 입력하세요</string>
     <string name="restore_code_explain">이 백업을 만들 때의 복구 코드를 입력하세요.</string>
     <string name="restore_code_heading_okc">OpenKeychain 백업 코드를 입력하세요</string>
-    <string name="restore_code_explain_okc">이 백업을 만들 때 OpenKeychain이 보여준 36자리 코드입니다. 안의 모든 키를 가져옵니다.</string>
+    <string name="restore_code_explain_okc">이 백업을 만들 때 OpenKeychain이 보여준 36\u00A0자리 코드입니다. 안의 모든 키를 가져옵니다.</string>
     <string name="restore_code_label">복구 코드</string>
     <string name="restore_run">복구</string>
     <string name="restore_done_title">복구 완료</string>
