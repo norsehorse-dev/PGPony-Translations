@@ -135,7 +135,7 @@
     <string name="settings_category_encryption_title">암호화</string>
     <string name="settings_category_encryption_subtitle">전자 우편 형식, 아머 주석, 기본 수신자</string>
     <string name="settings_category_keys_title">키 및 서버</string>
-    <string name="settings_category_keys_subtitle">리마인더, 키 서버, 새로 고침, 프록시, 연결된 앱</string>
+    <string name="settings_category_keys_subtitle">리마인더, 키 서버, 새로 고침, 프락시, 연결된 앱</string>
     <string name="settings_category_appearance_title">외관 및 언어</string>
     <string name="settings_category_appearance_subtitle">테마 및 언어</string>
     <string name="settings_category_backup_title">백업 및 데이터</string>
@@ -1865,7 +1865,7 @@
     <string name="settings_key_refresh_subtitle">키 서버에서 키를 자동으로 다시 확인해 철회와 만료를 알아차립니다</string>
     <string name="settings_key_refresh_wifi_title">Wi-Fi 전용</string>
     <string name="settings_key_refresh_wifi_subtitle">무제한 네트워크에서만 새로 고침</string>
-    <string name="settings_key_refresh_disclosure">켜면 PGPony는 주기적으로 보유 키의 지문을 활성화된 키 서버(keys.pgpony.app 포함)로 보내 갱신을 받아옵니다. 이를 Tor로 유지하려면 프록시의 onion 옵션을 쓰세요.</string>
+    <string name="settings_key_refresh_disclosure">켜면 PGPony는 주기적으로 보유 키의 지문을 활성화된 키 서버(keys.pgpony.app 포함)로 보내 갱신을 받아옵니다. 이를 Tor로 유지하려면 프락시의 onion 옵션을 쓰세요.</string>
     <string name="settings_key_refresh_foss_enable">F-Droid 빌드는 기본적으로 이것이 꺼져 있습니다. 켜면 PGPony가 철회를 자동으로 확인합니다.</string>
     <string name="key_refresh_notif_revoked_title">키가 철회되었습니다</string>
     <string name="key_refresh_notif_revoked_body">%1$s의 키가 이제 키 서버에서 철회되었습니다. 사용을 멈추는 것이 좋을 수 있습니다.</string>
@@ -2048,7 +2048,7 @@
     <string name="publish_not_now">나중에</string>
     <string name="settings_proxy_socks_user">SOCKS 사용자 이름(선택 사항)</string>
     <string name="settings_proxy_socks_pass">SOCKS 비밀번호(선택 사항)</string>
-    <string name="settings_proxy_socks_note">선택 사항. 사용자 이름과 비밀번호를 설정하면 프록시를 공유하는 다른 앱과 분리된 PGPony 전용 Tor 회로를 사용합니다.</string>
+    <string name="settings_proxy_socks_note">선택 사항. 사용자 이름과 비밀번호를 설정하면 프락시를 공유하는 다른 앱과 분리된 PGPony 전용 Tor 회로를 사용합니다.</string>
     <string name="change_passphrase_changed">비밀구절이 변경됨</string>
     <string name="change_passphrase_set">비밀구절이 설정됨</string>
     <string name="change_passphrase_removed">비밀구절이 제거됨</string>
@@ -2086,7 +2086,7 @@
     <string name="import_method_url">링크</string>
     <string name="import_url_label">공개 키 링크</string>
     <string name="import_url_fetch_button">키 가져오기</string>
-    <string name="import_url_help">.asc 파일이나 키를 보여 주는 페이지 모두 됩니다. 키는 프록시 설정을 거쳐 가져오며, 지문을 확인하고 가져오기를 누르기 전에는 아무것도 추가되지 않습니다.</string>
+    <string name="import_url_help">.asc 파일이나 키를 보여 주는 페이지 모두 됩니다. 키는 프락시 설정을 거쳐 가져오며, 지문을 확인하고 가져오기를 누르기 전에는 아무것도 추가되지 않습니다.</string>
     <string name="import_url_error_https">https 링크만 가져올 수 있습니다(.onion 주소는 http도 가능).</string>
     <string name="import_url_error_offline">오프라인 모드가 켜져 있어 링크를 가져오지 않았습니다.</string>
     <string name="import_url_error_no_key">해당 링크에서 공개 키를 찾지 못했습니다.</string>

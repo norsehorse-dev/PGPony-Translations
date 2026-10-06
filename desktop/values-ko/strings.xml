@@ -617,7 +617,7 @@
 
     <!-- ── Settings · Updates (D13) ─────────────────────────────────────── -->
     <string name="d_settings_section_updates">판올림</string>
-    <string name="d_settings_updates_note">기본값은 꺼짐입니다. 켜면 PGPony가 하루에 한 번 pgpony.app에서 새 판이 있는지 확인합니다. 사용자나 키에 관한 정보는 전혀 보내지 않으며, 프록시 설정을 따릅니다.</string>
+    <string name="d_settings_updates_note">기본값은 꺼짐입니다. 켜면 PGPony가 하루에 한 번 pgpony.app에서 새 판이 있는지 확인합니다. 사용자나 키에 관한 정보는 전혀 보내지 않으며, 프락시 설정을 따릅니다.</string>
     <string name="d_settings_updates_idle">아직 확인하지 않았습니다.</string>
     <string name="d_settings_updates_checking">확인 중…</string>
     <string name="d_settings_updates_current">최신 판을 사용하고 있습니다.</string>
@@ -900,7 +900,7 @@
     <string name="d_status_secret_added">%1$s의 개인 키 추가됨</string>
     <string name="d_status_secret_refused">%1$s의 개인 키가 해당 연락처의 것이 아니어서 추가하지 않았습니다</string>
     <string name="d_status_secret_skipped">%1$s의 개인 키를 추가하지 않음</string>
-    <string name="d_settings_autorefresh_note">켜면 PGPony가 키링에 있는 모든 키의 지문을 조회가 활성화된 각 키 서버로 하루에 한 번쯤 보냅니다. 프록시를 설정했다면 프록시를 거칩니다. 새로 설치하면 꺼져 있습니다.</string>
+    <string name="d_settings_autorefresh_note">켜면 PGPony가 키링에 있는 모든 키의 지문을 조회가 활성화된 각 키 서버로 하루에 한 번쯤 보냅니다. 프락시를 설정했다면 프락시를 거칩니다. 새로 설치하면 꺼져 있습니다.</string>
     <string name="d_gnupg_continue">계속</string>
     <string name="d_gnupg_continue_hint">“계속”을 누르면 gpg로 개인 키와 신뢰를 읽습니다. 아직 아무것도 가져오지 않습니다.</string>
     <string name="d_gnupg_other_folder">이 폴더는 GnuPG 홈이 아니므로 PGPony는 gpg를 실행하지 않고 파일을 직접 읽습니다. 공개 키와 신뢰는 가져올 수 있지만 개인 키는 가져올 수 없습니다.</string>
