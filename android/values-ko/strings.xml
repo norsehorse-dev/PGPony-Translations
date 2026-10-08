@@ -1726,7 +1726,7 @@
          path could not unlock: refuse rather than silently produce an
          unsigned bundle. Card keys no longer reach it, they route to the
          PIN dialog instead. -->
-    <string name="encdec_error_bundle_signing_key">이 번들을 서명할 수 없었습니다: 선택한 서명 키의 잠금을 해제할 수 없었습니다. 다른 서명 키를 고르거나 서명을 끄세요.</string>
+    <string name="encdec_error_bundle_signing_key">이 묶음을 서명할 수 없었습니다: 선택한 서명 키의 잠금을 해제할 수 없었습니다. 다른 서명 키를 고르거나 서명을 끄세요.</string>
     <string name="bundle_result_title">묶음 암호화됨</string>
     <string name="bundle_result_subtitle_format">첨부 %1$d\u00A0개 · 받는 사람 %2$d\u00A0명</string>
     <string name="bundle_result_section_email">전자 우편으로 보내기</string>
@@ -1735,7 +1735,7 @@
     <string name="bundle_result_share_asc">암호화된 .asc 공유</string>
     <string name="bundle_result_copy_inline">인라인 블록 복사</string>
     <string name="bundle_result_copy_too_large">복사하기에 너무 큽니다. 대신 파일로 공유하거나 저장하세요.</string>
-    <string name="bundle_result_export_writing">파일 쓰는 중… 큰 번들은 시간이 걸릴 수 있습니다.</string>
+    <string name="bundle_result_export_writing">파일 쓰는 중… 큰 묶음은 시간이 걸릴 수 있습니다.</string>
     <!-- 3.1.0 Phase 5 Fix1 — Bundle result Save-to-Files -->
     <string name="bundle_result_save_eml">.eml을 파일에 저장</string>
     <string name="bundle_result_save_asc">.asc를 파일에 저장</string>

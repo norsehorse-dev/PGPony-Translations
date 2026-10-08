@@ -6266,7 +6266,7 @@
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "번들 복호화됨"
+            "value" : "묶음 복호화됨"
           }
         }
       }
@@ -6302,7 +6302,7 @@
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "번들 암호화됨"
+            "value" : "묶음 암호화됨"
           }
         },
         "pt-BR" : {
@@ -19034,7 +19034,7 @@
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "번들 암호화"
+            "value" : "묶음 암호화"
           }
         },
         "pt-BR" : {
@@ -65226,7 +65226,7 @@
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "이 번들은 이 방식으로 암호화하기에 너무 큽니다. 더 작은 번들이나, 포스트 양자가 아닌 받는 사람, 또는 표준(v4) 서명 키를 써 보세요."
+            "value" : "이 묶음은 이 방식으로 암호화하기에 너무 큽니다. 더 작은 묶음이나, 포스트 양자가 아닌 받는 사람, 또는 표준(v4) 서명 키를 써 보세요."
           }
         },
         "pt-BR" : {
