@@ -648,7 +648,7 @@
     <string name="import_keyserver_query_placeholder">alice@example.com</string>
     <string name="import_keyserver_search_button">검색</string>
     <string name="import_keyserver_search_button_in_progress">검색 중…</string>
-    <string name="import_keyserver_help">전자 우편 주소의 경우 PGPony는 먼저 받는 사람 자신의 도메인에서 웹 키 디렉터리를 시도한 뒤, 설정된 키 서버(keys.pgpony.app가 먼저)를, 그다음 keys.openpgp.org를 시도합니다. 지문은 WKD를 건너뛰고 같은 순서로 키 서버를 검색합니다.</string>
+    <string name="import_keyserver_help">전자 우편 주소의 경우 PGPony는 먼저 받는 사람 자신의 도메인에서 Web Key Directory를 시도한 뒤, 설정된 키 서버(keys.pgpony.app가 먼저)를, 그다음 keys.openpgp.org를 시도합니다. 지문은 WKD를 건너뛰고 같은 순서로 키 서버를 검색합니다.</string>
 
     <!-- ── Preview card ─────────────────────────────────────────────── -->
     <string name="import_preview_type_key_pair">키쌍 (공개 + 개인)</string>
@@ -2036,7 +2036,7 @@
     <string name="provider_ask_sign_key_subtitle">한 주소에 서명 키가 여러 개일 때 PGPony가 한 번 묻고 선택을 기억합니다. 아래 주소별 서명 키에서 설정하지 않은 주소에 대해 전송할 때마다 묻게 하려면 이 기능을 켜세요.</string>
     <string name="provider_keypicker_in_use">사용 중</string>
     <string name="provider_passphrase_change_key">다른 키로 서명</string>
-    <string name="keyservers_wkd_label">웹 키 디렉터리</string>
+    <string name="keyservers_wkd_label">Web Key Directory</string>
     <string name="keyservers_wkd_desc">전자 우편 조회 시 받는 사람 자신의 도메인에서 가장 먼저 시도합니다. 게시하지 않습니다.</string>
     <string name="keyservers_add">키 서버 추가</string>
     <string name="keyservers_add_title">키 서버 추가</string>
