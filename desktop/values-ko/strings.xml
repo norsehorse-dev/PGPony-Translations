@@ -484,7 +484,7 @@
     <string name="d_expiry_headline_today">%1$s이(가) 오늘 만료됩니다</string>
     <string name="d_expiry_headline_tomorrow">%1$s이(가) 내일 만료됩니다</string>
     <plurals name="d_expiry_headline_days">
-        <item quantity="other">%2$s이(가) %1$d\u00A0명 후 만료됩니다</item>
+        <item quantity="other">%2$s이(가) %1$d\u00A0일 후 만료됩니다</item>
     </plurals>
     <string name="d_backup_err_not_a_backup">PGPony 백업 파일이 아닙니다</string>
     <string name="d_backup_err_wrong_code">이 복구 코드로는 백업을 열 수 없습니다</string>
@@ -719,7 +719,7 @@
     <string name="d_status_purged">%1$s을(를) 영구히 삭제했습니다</string>
     <string name="d_status_bin_emptied">최근 삭제된 항목을 비웠습니다</string>
     <plurals name="d_recycle_days_left">
-        <item quantity="other">%1$d\u00A0명 남음</item>
+        <item quantity="other">%1$d\u00A0일 남음</item>
     </plurals>
     <string name="d_edit_err_v6_subkey_type">v6 키에는 Ed25519 및 X25519 서브키만 추가할 수 있습니다.</string>
     <string name="d_edit_err_v4_mlkem768_only">v4 키에는 ML-KEM-768 양자 내성 서브키만 추가할 수 있습니다. ML-KEM-1024에는 v6 키가 필요합니다.</string>
