@@ -41,7 +41,7 @@
 
     <!-- ── Settings · Password store ───────────────────────────────────── -->
     <string name="d_settings_pass_show_tab">비밀번호 저장소 탭 표시</string>
-    <string name="d_settings_pass_note">표준 `pass` 저장소(.gpg-id 수신자 파일이 들어 있는 .gpg 파일 폴더)를 탐색하고, 키링의 소프트웨어 키나 하드웨어 키로 항목을 복호화합니다. 읽기 전용: PGPony는 저장소에 아무것도 쓰지 않습니다.</string>
+    <string name="d_settings_pass_note">표준 `pass` 저장소(.gpg-id 받는 사람 파일이 들어 있는 .gpg 파일 폴더)를 탐색하고, 키링의 소프트웨어 키나 하드웨어 키로 항목을 복호화합니다. 읽기 전용: PGPony는 저장소에 아무것도 쓰지 않습니다.</string>
     <string name="d_settings_pass_default_location">기본 위치:</string>
     <plurals name="d_settings_pass_status_configured">
         <item quantity="other">저장소 %1$d\u00A0개가 설정되어 있습니다. 비밀번호 저장소 탭에서 관리하세요.</item>
@@ -142,13 +142,13 @@
     <string name="d_crypto_attach_files">파일 첨부…</string>
     <string name="d_crypto_clear_attachments">첨부 비우기</string>
     <string name="d_crypto_bundle_note">PGP/MIME 묶음으로 보냅니다. 본문과 첨부 파일 %1$d\u00A0개를 하나의 암호화된 multipart/mixed에 담습니다.</string>
-    <string name="d_crypto_err_card_or_recipient_load">수신자 또는 카드 키를 불러오지 못했습니다</string>
+    <string name="d_crypto_err_card_or_recipient_load">받는 사람 또는 카드 키를 불러오지 못했습니다</string>
     <string name="d_crypto_card_sign_encrypt_title">%1$s에 서명 및 암호화</string>
     <string name="d_crypto_hardware_key">하드웨어 키</string>
     <string name="d_crypto_err_pubkey_missing">“%1$s”의 공개 키를 불러올 수 없습니다. 저장된 키 자료가 없습니다. 키링에서 해당 항목을 제거하고 공개 키를 다시 가져오세요.</string>
     <string name="d_crypto_err_signer_load">서명 키 %1$s을(를) 불러올 수 없어 아무것도 암호화하지 않았습니다. (서명 없이 보내려면 “다음으로 서명”을 해제하세요.)</string>
-    <string name="d_crypto_banner_encrypted">수신자 %1$d\u00A0명에게 암호화됨</string>
-    <string name="d_crypto_banner_encrypted_card">수신자 %1$d\u00A0명에게 암호화됨, 카드에서 %2$s(으)로 서명됨</string>
+    <string name="d_crypto_banner_encrypted">받는 사람 %1$d\u00A0명에게 암호화됨</string>
+    <string name="d_crypto_banner_encrypted_card">받는 사람 %1$d\u00A0명에게 암호화됨, 카드에서 %2$s(으)로 서명됨</string>
     <string name="d_crypto_banner_encrypted_pass">비밀구절로 암호화됨</string>
     <string name="d_crypto_banner_signed_as">, %1$s(%2$s)으로 서명됨</string>
     <string name="d_crypto_banner_unsigned">, 서명되지 않음</string>
@@ -529,7 +529,7 @@
     <string name="d_restore_failed">복구 실패</string>
     <string name="d_restore_open_dialog_title">백업 선택</string>
     <string name="d_search_servers_title">키 서버 검색</string>
-    <string name="d_search_lookup_order">조회 순서: WKD(수신자 자신의 메일 도메인) → 설정한 서버 → keys.openpgp.org.</string>
+    <string name="d_search_lookup_order">조회 순서: WKD(받는 사람 자신의 메일 도메인) → 설정한 서버 → keys.openpgp.org.</string>
     <string name="d_search_none">키를 찾지 못했습니다(WKD, 설정한 서버, keys.openpgp.org).</string>
     <string name="d_search_unparseable">(해석할 수 없음)</string>
     <string name="d_search_failed">검색 실패: %1$s</string>
@@ -576,7 +576,7 @@
     <plurals name="d_keyring_match_count">
         <item quantity="other">%1$d\u00A0개 일치</item>
     </plurals>
-    <string name="d_file_err_recipient_ring">수신자 키링을 불러오지 못했습니다: %1$s</string>
+    <string name="d_file_err_recipient_ring">받는 사람 키링을 불러오지 못했습니다: %1$s</string>
     <string name="d_file_err_signing_key">서명 키를 불러올 수 없습니다: %1$s</string>
     <string name="d_file_signed_suffix">, 서명됨</string>
     <string name="d_file_err_encrypt">암호화 실패</string>
@@ -587,10 +587,10 @@
     <string name="d_file_err_card_sign">카드 서명 실패</string>
     <string name="d_file_err_card_decrypt">카드 복호화 실패</string>
     <plurals name="d_file_encrypted_to">
-        <item quantity="other">수신자 %1$d\u00A0명에게 암호화됨</item>
+        <item quantity="other">받는 사람 %1$d\u00A0명에게 암호화됨</item>
     </plurals>
     <plurals name="d_file_encrypted_to_card">
-        <item quantity="other">수신자 %1$d\u00A0명에게 암호화됨, 서명됨(하드웨어 키)</item>
+        <item quantity="other">받는 사람 %1$d\u00A0명에게 암호화됨, 서명됨(하드웨어 키)</item>
     </plurals>
     <plurals name="d_file_decrypted_bundle">
         <item quantity="other">묶음 복호화됨 → 파일 %1$d\u00A0개</item>
@@ -646,7 +646,7 @@
 
     <!-- ── Files · folder encrypt / extract (D16) ── -->
     <plurals name="d_file_folder_encrypted">
-        <item quantity="other">폴더를 수신자 %1$d\u00A0명에게 암호화함</item>
+        <item quantity="other">폴더를 받는 사람 %1$d\u00A0명에게 암호화함</item>
     </plurals>
     <plurals name="d_file_folder_extracted">
         <item quantity="other">폴더 추출됨 → 파일 %1$d\u00A0개</item>
@@ -660,11 +660,11 @@
 
     <!-- ── Settings · watch folders (D18) ── -->
     <string name="d_settings_section_watch">감시 폴더</string>
-    <string name="d_settings_watch_note">기본값은 꺼짐입니다. 켜면 PGPony가 지정한 폴더를 감시하다가 새 파일이 생길 때마다 선택한 수신자에게 암호화합니다. 암호화 전용이며 공개 키만 사용하므로, 자리를 비운 사이 규칙이 실행되어도 비밀구절이나 카드가 필요 없고, 최악의 경우라도 암호화만 할 뿐입니다. macOS, Linux, Windows에서 동작합니다.</string>
+    <string name="d_settings_watch_note">기본값은 꺼짐입니다. 켜면 PGPony가 지정한 폴더를 감시하다가 새 파일이 생길 때마다 선택한 받는 사람에게 암호화합니다. 암호화 전용이며 공개 키만 사용하므로, 자리를 비운 사이 규칙이 실행되어도 비밀구절이나 카드가 필요 없고, 최악의 경우라도 암호화만 할 뿐입니다. macOS, Linux, Windows에서 동작합니다.</string>
     <string name="d_settings_watch_enable">아래 폴더 감시</string>
     <string name="d_settings_watch_rules">규칙</string>
     <string name="d_settings_watch_no_rules">아직 규칙이 없습니다. 폴더를 감시하려면 규칙을 추가하세요.</string>
-    <string name="d_settings_watch_rule_summary">수신자 %1$d\u00A0명 → %2$s</string>
+    <string name="d_settings_watch_rule_summary">받는 사람 %1$d\u00A0명 → %2$s</string>
     <string name="d_settings_watch_beside_source">원본 옆</string>
     <string name="d_settings_watch_rule_on">켜짐</string>
     <string name="d_settings_watch_deletes">원본 삭제</string>
@@ -674,7 +674,7 @@
     <string name="d_settings_watch_browse">찾아보기…</string>
     <string name="d_settings_watch_glob">일치 패턴(glob, 예: *.pdf)</string>
     <string name="d_settings_watch_output">출력 폴더(선택 사항)</string>
-    <string name="d_settings_watch_no_recipients">사용할 수 있는 수신자가 없습니다. 먼저 공개 키를 가져오세요.</string>
+    <string name="d_settings_watch_no_recipients">사용할 수 있는 받는 사람가 없습니다. 먼저 공개 키를 가져오세요.</string>
     <string name="d_settings_watch_armor">출력을 ASCII 아머로 저장(.asc)</string>
     <string name="d_settings_watch_delete_original">암호화 후 원본 삭제</string>
     <string name="d_settings_watch_delete_warning">원본은 되돌릴 수 없게 삭제됩니다. 확실하지 않다면 꺼 두세요.</string>
