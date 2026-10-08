@@ -482,9 +482,9 @@
     <string name="result_encrypt_header_signed">메시지 서명됨</string>
     <string name="result_encrypt_header_encrypted">메시지 암호화됨</string>
     <string name="result_encrypt_badge_signed">서명됨</string>
-    <string name="result_encrypt_unsigned_pqc_note">서명 없이 전송됨: 수신자가 이전 v4 키를 사용하므로 양자 내성 서명을 제외했습니다. 메시지는 모든 수신자에게 암호화되어 있습니다.</string>
+    <string name="result_encrypt_unsigned_pqc_note">서명 없이 전송됨: 수신자가 이전 v4 키를 사용하므로 포스트 양자 서명을 제외했습니다. 메시지는 모든 수신자에게 암호화되어 있습니다.</string>
     <string name="pqc_v4_sign_title">일부 수신자는 이 서명을 읽지 못할 수 있습니다</string>
-    <string name="pqc_v4_sign_message">서명 키가 양자 내성(ML-DSA) 키이고 수신자 중 한 명 이상이 이전 v4 키를 사용합니다. PGPony는 서명을 읽지만, GnuPG는 오류와 함께 메시지를 표시하고 Thunderbird는 메시지를 전혀 열 수 없습니다.</string>
+    <string name="pqc_v4_sign_message">서명 키가 포스트 양자(ML-DSA) 키이고 수신자 중 한 명 이상이 이전 v4 키를 사용합니다. PGPony는 서명을 읽지만, GnuPG는 오류와 함께 메시지를 표시하고 Thunderbird는 메시지를 전혀 열 수 없습니다.</string>
     <string name="pqc_v4_sign_anyway">그래도 서명</string>
     <string name="pqc_v4_send_unsigned">서명 없이 보내기</string>
     <string name="result_encrypt_output_signed">서명된 출력</string>
@@ -865,7 +865,7 @@
     <string name="key_detail_fallbacks_move_down">아래로 이동</string>
     <string name="key_detail_section_signing_defaults">서명 기본값</string>
     <string name="key_detail_signing_defaults_explainer">이 키가 서명할 때는 각 상황에서 이 키들 대신 사용합니다. \"이 키\"는 일반 동작을 유지합니다.</string>
-    <string name="key_detail_signing_default_pqc">양자 내성 수신자에게 암호화할 때</string>
+    <string name="key_detail_signing_default_pqc">포스트 양자 수신자에게 암호화할 때</string>
     <string name="key_detail_signing_default_classical">고전 수신자에게 암호화할 때</string>
     <string name="key_detail_signing_default_sign_only">암호화 없이 서명할 때</string>
     <string name="key_detail_signing_default_self">이 키</string>
@@ -1972,9 +1972,9 @@
     <string name="settings_disable_destructive_title">파괴적 작업 숨기기</string>
     <string name="settings_disable_destructive_subtitle">키 삭제, 서브키 제거, 사용자 ID 제거, 모든 데이터 지우기를 전혀 사용하지 않는 사람을 위해 숨깁니다. 해지는 계속 사용할 수 있습니다. 기본값은 꺼짐입니다.</string>
     <string name="settings_security_confirm_destructive_title">파괴적 작업 잠금 변경 확인</string>
-    <string name="encrypt_pq_mixed_warning">양자 내성의 약한 고리: %1$s 님은 이 메시지를 기존 암호화로 받게 되므로 메시지 전체가 양자 내성 안전을 갖지 못합니다. 완전한 보호를 위해서는 모든 수신자에게 양자 내성 키가 필요합니다.</string>
+    <string name="encrypt_pq_mixed_warning">포스트 양자의 약한 고리: %1$s 님은 이 메시지를 기존 암호화로 받게 되므로 메시지 전체가 포스트 양자 안전을 갖지 못합니다. 완전한 보호를 위해서는 모든 수신자에게 포스트 양자 키가 필요합니다.</string>
     <string name="encrypt_subkey_label">%1$s: 암호화 서브키</string>
-    <string name="encrypt_subkey_pq">양자 내성</string>
+    <string name="encrypt_subkey_pq">포스트 양자</string>
     <string name="encrypt_subkey_classical">기존</string>
     <string name="encrypt_subkey_auto">자동</string>
     <string name="encrypt_sign_none_option">없음(서명 안 함)</string>
@@ -1988,11 +1988,11 @@
     <string name="settings_offer_publish_title">새 키 게시 제안</string>
     <string name="settings_offer_publish_subtitle">키를 생성한 후 키 서버에 게시하도록 제안합니다. 키 생성을 완전히 로컬로 유지하려면 끄세요.</string>
     <string name="keyring_generate_algorithm_group_classical">기존</string>
-    <string name="keyring_generate_algorithm_group_pqc">양자 내성</string>
+    <string name="keyring_generate_algorithm_group_pqc">포스트 양자</string>
     <string name="keyring_generate_algorithm_group_interop">상호 운용 / 호환성</string>
     <string name="keyring_generate_algorithm_group_advanced">고급 / 호환성</string>
-    <string name="keyring_generate_algorithm_caption_pqc_v4">가장 폭넓게 쓰이는 양자 내성 암호화입니다. 모든 OpenPGP 도구가 이미 처리하는 표준 v4 Ed25519 키에 기존 서브키와 함께 양자 내성 ML-KEM-768 암호화 서브키를 담아, 오래된 소프트웨어도 여전히 당신에게 암호화할 수 있고 최신 도구는 ML-KEM을 사용합니다. 실제 상대와 함께 쓰는 양자 내성 암호화로 권장되는 선택입니다. 이 형식의 개인 키 백업은 아직 지원되지 않습니다.</string>
-    <string name="keyring_generate_algorithm_caption_pqc_sign">기존 방식으로의 대체가 없는 완전한 양자 내성입니다. 최신 v6 키(RFC 9980)의 ML-DSA 서명 신원과 ML-KEM 암호화 서브키. 서명과 암호화 모두 양자 공격에 견디며, 키에 더 약한 기존 서브키가 없어 하향될 대상이 없습니다. 최신 OpenPGP 소프트웨어만 사용할 수 있습니다.</string>
+    <string name="keyring_generate_algorithm_caption_pqc_v4">가장 폭넓게 쓰이는 포스트 양자 암호화입니다. 모든 OpenPGP 도구가 이미 처리하는 표준 v4 Ed25519 키에 기존 서브키와 함께 포스트 양자 ML-KEM-768 암호화 서브키를 담아, 오래된 소프트웨어도 여전히 당신에게 암호화할 수 있고 최신 도구는 ML-KEM을 사용합니다. 실제 상대와 함께 쓰는 포스트 양자 암호화로 권장되는 선택입니다. 이 형식의 개인 키 백업은 아직 지원되지 않습니다.</string>
+    <string name="keyring_generate_algorithm_caption_pqc_sign">기존 방식으로의 대체가 없는 완전한 포스트 양자입니다. 최신 v6 키(RFC 9980)의 ML-DSA 서명 신원과 ML-KEM 암호화 서브키. 서명과 암호화 모두 양자 공격에 견디며, 키에 더 약한 기존 서브키가 없어 하향될 대상이 없습니다. 최신 OpenPGP 소프트웨어만 사용할 수 있습니다.</string>
     <string name="keyring_generate_granular_toggle">고급: 서브키 구성</string>
     <string name="keyring_generate_granular_include_default">기본 암호화 서브키 포함</string>
     <string name="keyring_generate_granular_add_subkey">서브키 추가</string>
@@ -2016,7 +2016,7 @@
     <string name="key_detail_subkey_last_enc_action">계속</string>
     <string name="key_detail_subkey_action_failed">서브키 작업을 완료할 수 없습니다. 다시 시도하세요.</string>
     <string name="key_detail_add_subkey_group_classical">기존</string>
-    <string name="key_detail_add_subkey_group_pq">양자 내성</string>
+    <string name="key_detail_add_subkey_group_pq">포스트 양자</string>
     <string name="key_detail_add_subkey_type_mlkem768">ML-KEM-768 (암호화)</string>
     <string name="key_detail_add_subkey_type_mlkem1024">ML-KEM-1024 (암호화)</string>
     <string name="key_detail_add_subkey_type_mldsa65">ML-DSA-65 (서명)</string>
@@ -2069,7 +2069,7 @@
     <string name="key_detail_unpublished_changes_action">업데이트</string>
     <string name="revocation_result_publish_button">키 서버에 폐기 게시</string>
     <string name="keyring_generate_algorithm_experimental">지원 앱 제한적</string>
-    <string name="keyring_generate_algorithm_experimental_note">이 키는 PGPony에서 완전히 작동합니다. 많은 다른 앱은 아직 양자 내성 키를 읽지 못하며, 서로 호환되지 않는 두 가지 양자 내성 형식이 쓰이고 있습니다.</string>
+    <string name="keyring_generate_algorithm_experimental_note">이 키는 PGPony에서 완전히 작동합니다. 많은 다른 앱은 아직 포스트 양자 키를 읽지 못하며, 서로 호환되지 않는 두 가지 포스트 양자 형식이 쓰이고 있습니다.</string>
     <string name="keyring_generate_algorithm_caption_pqc_sign_87">최고 보안 등급: v6 키(RFC 9980)의 ML-DSA-87 서명 ID와 ML-KEM-1024 암호화 하위 키입니다. 권장 선택인 ML-DSA-65 + ML-KEM-768보다 키가 크고 느립니다. 최신 OpenPGP 소프트웨어에서만 사용할 수 있습니다.</string>
     <string name="key_detail_label_add">라벨 추가</string>
     <string name="keyring_same_identity_body">이 중 하나로 암호화하거나 신뢰하기 전에 지문을 비교하세요.</string>
